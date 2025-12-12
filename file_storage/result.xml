@@ -1,0 +1,2007 @@
+<?xml version='1.0' encoding='utf-8'?>
+<queries>
+		<query>rooms_and_count<Room>('Room #0', 9)</Room>
+			<Room>('Room #1', 7)</Room>
+			<Room>('Room #2', 9)</Room>
+			<Room>('Room #3', 5)</Room>
+			<Room>('Room #4', 11)</Room>
+			<Room>('Room #5', 9)</Room>
+			<Room>('Room #6', 4)</Room>
+			<Room>('Room #7', 10)</Room>
+			<Room>('Room #8', 12)</Room>
+			<Room>('Room #9', 7)</Room>
+			<Room>('Room #10', 13)</Room>
+			<Room>('Room #11', 12)</Room>
+			<Room>('Room #12', 16)</Room>
+			<Room>('Room #13', 10)</Room>
+			<Room>('Room #14', 7)</Room>
+			<Room>('Room #15', 9)</Room>
+			<Room>('Room #16', 10)</Room>
+			<Room>('Room #17', 9)</Room>
+			<Room>('Room #18', 10)</Room>
+			<Room>('Room #19', 13)</Room>
+			<Room>('Room #20', 15)</Room>
+			<Room>('Room #21', 15)</Room>
+			<Room>('Room #22', 9)</Room>
+			<Room>('Room #23', 16)</Room>
+			<Room>('Room #24', 14)</Room>
+			<Room>('Room #25', 4)</Room>
+			<Room>('Room #26', 7)</Room>
+			<Room>('Room #27', 6)</Room>
+			<Room>('Room #28', 7)</Room>
+			<Room>('Room #29', 12)</Room>
+			<Room>('Room #30', 9)</Room>
+			<Room>('Room #31', 13)</Room>
+			<Room>('Room #32', 9)</Room>
+			<Room>('Room #33', 9)</Room>
+			<Room>('Room #34', 9)</Room>
+			<Room>('Room #35', 14)</Room>
+			<Room>('Room #36', 10)</Room>
+			<Room>('Room #37', 12)</Room>
+			<Room>('Room #38', 10)</Room>
+			<Room>('Room #39', 12)</Room>
+			<Room>('Room #40', 11)</Room>
+			<Room>('Room #41', 15)</Room>
+			<Room>('Room #42', 8)</Room>
+			<Room>('Room #43', 9)</Room>
+			<Room>('Room #44', 16)</Room>
+			<Room>('Room #45', 10)</Room>
+			<Room>('Room #46', 12)</Room>
+			<Room>('Room #47', 9)</Room>
+			<Room>('Room #48', 12)</Room>
+			<Room>('Room #49', 3)</Room>
+			<Room>('Room #50', 6)</Room>
+			<Room>('Room #51', 15)</Room>
+			<Room>('Room #52', 15)</Room>
+			<Room>('Room #53', 9)</Room>
+			<Room>('Room #54', 6)</Room>
+			<Room>('Room #55', 9)</Room>
+			<Room>('Room #56', 13)</Room>
+			<Room>('Room #57', 9)</Room>
+			<Room>('Room #58', 12)</Room>
+			<Room>('Room #59', 9)</Room>
+			<Room>('Room #60', 9)</Room>
+			<Room>('Room #61', 11)</Room>
+			<Room>('Room #62', 14)</Room>
+			<Room>('Room #63', 9)</Room>
+			<Room>('Room #64', 11)</Room>
+			<Room>('Room #65', 16)</Room>
+			<Room>('Room #66', 6)</Room>
+			<Room>('Room #67', 10)</Room>
+			<Room>('Room #68', 12)</Room>
+			<Room>('Room #69', 12)</Room>
+			<Room>('Room #70', 12)</Room>
+			<Room>('Room #71', 10)</Room>
+			<Room>('Room #72', 8)</Room>
+			<Room>('Room #73', 20)</Room>
+			<Room>('Room #74', 17)</Room>
+			<Room>('Room #75', 7)</Room>
+			<Room>('Room #76', 6)</Room>
+			<Room>('Room #77', 9)</Room>
+			<Room>('Room #78', 8)</Room>
+			<Room>('Room #79', 6)</Room>
+			<Room>('Room #80', 7)</Room>
+			<Room>('Room #81', 12)</Room>
+			<Room>('Room #82', 15)</Room>
+			<Room>('Room #83', 11)</Room>
+			<Room>('Room #84', 11)</Room>
+			<Room>('Room #85', 6)</Room>
+			<Room>('Room #86', 9)</Room>
+			<Room>('Room #87', 13)</Room>
+			<Room>('Room #88', 9)</Room>
+			<Room>('Room #89', 7)</Room>
+			<Room>('Room #90', 11)</Room>
+			<Room>('Room #91', 10)</Room>
+			<Room>('Room #92', 5)</Room>
+			<Room>('Room #93', 12)</Room>
+			<Room>('Room #94', 11)</Room>
+			<Room>('Room #95', 8)</Room>
+			<Room>('Room #96', 9)</Room>
+			<Room>('Room #97', 5)</Room>
+			<Room>('Room #98', 11)</Room>
+			<Room>('Room #99', 8)</Room>
+			<Room>('Room #100', 9)</Room>
+			<Room>('Room #101', 10)</Room>
+			<Room>('Room #102', 5)</Room>
+			<Room>('Room #103', 12)</Room>
+			<Room>('Room #104', 12)</Room>
+			<Room>('Room #105', 5)</Room>
+			<Room>('Room #106', 9)</Room>
+			<Room>('Room #107', 12)</Room>
+			<Room>('Room #108', 10)</Room>
+			<Room>('Room #109', 7)</Room>
+			<Room>('Room #110', 9)</Room>
+			<Room>('Room #111', 10)</Room>
+			<Room>('Room #112', 11)</Room>
+			<Room>('Room #113', 9)</Room>
+			<Room>('Room #114', 11)</Room>
+			<Room>('Room #115', 9)</Room>
+			<Room>('Room #116', 14)</Room>
+			<Room>('Room #117', 12)</Room>
+			<Room>('Room #118', 10)</Room>
+			<Room>('Room #119', 8)</Room>
+			<Room>('Room #120', 12)</Room>
+			<Room>('Room #121', 10)</Room>
+			<Room>('Room #122', 10)</Room>
+			<Room>('Room #123', 12)</Room>
+			<Room>('Room #124', 14)</Room>
+			<Room>('Room #125', 8)</Room>
+			<Room>('Room #126', 11)</Room>
+			<Room>('Room #127', 11)</Room>
+			<Room>('Room #128', 13)</Room>
+			<Room>('Room #129', 8)</Room>
+			<Room>('Room #130', 10)</Room>
+			<Room>('Room #131', 8)</Room>
+			<Room>('Room #132', 11)</Room>
+			<Room>('Room #133', 16)</Room>
+			<Room>('Room #134', 4)</Room>
+			<Room>('Room #135', 7)</Room>
+			<Room>('Room #136', 16)</Room>
+			<Room>('Room #137', 11)</Room>
+			<Room>('Room #138', 13)</Room>
+			<Room>('Room #139', 14)</Room>
+			<Room>('Room #140', 5)</Room>
+			<Room>('Room #141', 5)</Room>
+			<Room>('Room #142', 11)</Room>
+			<Room>('Room #143', 10)</Room>
+			<Room>('Room #144', 11)</Room>
+			<Room>('Room #145', 16)</Room>
+			<Room>('Room #146', 12)</Room>
+			<Room>('Room #147', 8)</Room>
+			<Room>('Room #148', 7)</Room>
+			<Room>('Room #149', 11)</Room>
+			<Room>('Room #150', 6)</Room>
+			<Room>('Room #151', 12)</Room>
+			<Room>('Room #152', 6)</Room>
+			<Room>('Room #153', 7)</Room>
+			<Room>('Room #154', 3)</Room>
+			<Room>('Room #155', 18)</Room>
+			<Room>('Room #156', 9)</Room>
+			<Room>('Room #157', 4)</Room>
+			<Room>('Room #158', 7)</Room>
+			<Room>('Room #159', 7)</Room>
+			<Room>('Room #160', 10)</Room>
+			<Room>('Room #161', 15)</Room>
+			<Room>('Room #162', 10)</Room>
+			<Room>('Room #163', 8)</Room>
+			<Room>('Room #164', 8)</Room>
+			<Room>('Room #165', 10)</Room>
+			<Room>('Room #166', 9)</Room>
+			<Room>('Room #167', 7)</Room>
+			<Room>('Room #168', 7)</Room>
+			<Room>('Room #169', 14)</Room>
+			<Room>('Room #170', 7)</Room>
+			<Room>('Room #171', 6)</Room>
+			<Room>('Room #172', 10)</Room>
+			<Room>('Room #173', 10)</Room>
+			<Room>('Room #174', 11)</Room>
+			<Room>('Room #175', 13)</Room>
+			<Room>('Room #176', 12)</Room>
+			<Room>('Room #177', 6)</Room>
+			<Room>('Room #178', 4)</Room>
+			<Room>('Room #179', 10)</Room>
+			<Room>('Room #180', 8)</Room>
+			<Room>('Room #181', 7)</Room>
+			<Room>('Room #182', 6)</Room>
+			<Room>('Room #183', 7)</Room>
+			<Room>('Room #184', 6)</Room>
+			<Room>('Room #185', 8)</Room>
+			<Room>('Room #186', 6)</Room>
+			<Room>('Room #187', 14)</Room>
+			<Room>('Room #188', 12)</Room>
+			<Room>('Room #189', 12)</Room>
+			<Room>('Room #190', 9)</Room>
+			<Room>('Room #191', 7)</Room>
+			<Room>('Room #192', 8)</Room>
+			<Room>('Room #193', 11)</Room>
+			<Room>('Room #194', 8)</Room>
+			<Room>('Room #195', 14)</Room>
+			<Room>('Room #196', 13)</Room>
+			<Room>('Room #197', 19)</Room>
+			<Room>('Room #198', 13)</Room>
+			<Room>('Room #199', 12)</Room>
+			<Room>('Room #200', 15)</Room>
+			<Room>('Room #201', 13)</Room>
+			<Room>('Room #202', 8)</Room>
+			<Room>('Room #203', 9)</Room>
+			<Room>('Room #204', 9)</Room>
+			<Room>('Room #205', 16)</Room>
+			<Room>('Room #206', 6)</Room>
+			<Room>('Room #207', 11)</Room>
+			<Room>('Room #208', 10)</Room>
+			<Room>('Room #209', 16)</Room>
+			<Room>('Room #210', 9)</Room>
+			<Room>('Room #211', 9)</Room>
+			<Room>('Room #212', 8)</Room>
+			<Room>('Room #213', 12)</Room>
+			<Room>('Room #214', 14)</Room>
+			<Room>('Room #215', 10)</Room>
+			<Room>('Room #216', 6)</Room>
+			<Room>('Room #217', 14)</Room>
+			<Room>('Room #218', 8)</Room>
+			<Room>('Room #219', 6)</Room>
+			<Room>('Room #220', 10)</Room>
+			<Room>('Room #221', 12)</Room>
+			<Room>('Room #222', 9)</Room>
+			<Room>('Room #223', 6)</Room>
+			<Room>('Room #224', 7)</Room>
+			<Room>('Room #225', 14)</Room>
+			<Room>('Room #226', 8)</Room>
+			<Room>('Room #227', 11)</Room>
+			<Room>('Room #228', 9)</Room>
+			<Room>('Room #229', 7)</Room>
+			<Room>('Room #230', 10)</Room>
+			<Room>('Room #231', 11)</Room>
+			<Room>('Room #232', 8)</Room>
+			<Room>('Room #233', 11)</Room>
+			<Room>('Room #234', 11)</Room>
+			<Room>('Room #235', 11)</Room>
+			<Room>('Room #236', 10)</Room>
+			<Room>('Room #237', 16)</Room>
+			<Room>('Room #238', 12)</Room>
+			<Room>('Room #239', 10)</Room>
+			<Room>('Room #240', 12)</Room>
+			<Room>('Room #241', 10)</Room>
+			<Room>('Room #242', 13)</Room>
+			<Room>('Room #243', 9)</Room>
+			<Room>('Room #244', 10)</Room>
+			<Room>('Room #245', 10)</Room>
+			<Room>('Room #246', 5)</Room>
+			<Room>('Room #247', 12)</Room>
+			<Room>('Room #248', 8)</Room>
+			<Room>('Room #249', 12)</Room>
+			<Room>('Room #250', 12)</Room>
+			<Room>('Room #251', 8)</Room>
+			<Room>('Room #252', 11)</Room>
+			<Room>('Room #253', 13)</Room>
+			<Room>('Room #254', 8)</Room>
+			<Room>('Room #255', 6)</Room>
+			<Room>('Room #256', 11)</Room>
+			<Room>('Room #257', 8)</Room>
+			<Room>('Room #258', 8)</Room>
+			<Room>('Room #259', 14)</Room>
+			<Room>('Room #260', 12)</Room>
+			<Room>('Room #261', 7)</Room>
+			<Room>('Room #262', 8)</Room>
+			<Room>('Room #263', 9)</Room>
+			<Room>('Room #264', 7)</Room>
+			<Room>('Room #265', 14)</Room>
+			<Room>('Room #266', 13)</Room>
+			<Room>('Room #267', 7)</Room>
+			<Room>('Room #268', 15)</Room>
+			<Room>('Room #269', 10)</Room>
+			<Room>('Room #270', 10)</Room>
+			<Room>('Room #271', 11)</Room>
+			<Room>('Room #272', 8)</Room>
+			<Room>('Room #273', 9)</Room>
+			<Room>('Room #274', 10)</Room>
+			<Room>('Room #275', 12)</Room>
+			<Room>('Room #276', 10)</Room>
+			<Room>('Room #277', 10)</Room>
+			<Room>('Room #278', 9)</Room>
+			<Room>('Room #279', 10)</Room>
+			<Room>('Room #280', 11)</Room>
+			<Room>('Room #281', 8)</Room>
+			<Room>('Room #282', 10)</Room>
+			<Room>('Room #283', 7)</Room>
+			<Room>('Room #284', 11)</Room>
+			<Room>('Room #285', 10)</Room>
+			<Room>('Room #286', 6)</Room>
+			<Room>('Room #287', 12)</Room>
+			<Room>('Room #288', 9)</Room>
+			<Room>('Room #289', 15)</Room>
+			<Room>('Room #290', 9)</Room>
+			<Room>('Room #291', 10)</Room>
+			<Room>('Room #292', 10)</Room>
+			<Room>('Room #293', 12)</Room>
+			<Room>('Room #294', 11)</Room>
+			<Room>('Room #295', 8)</Room>
+			<Room>('Room #296', 8)</Room>
+			<Room>('Room #297', 13)</Room>
+			<Room>('Room #298', 9)</Room>
+			<Room>('Room #299', 8)</Room>
+			<Room>('Room #300', 12)</Room>
+			<Room>('Room #301', 10)</Room>
+			<Room>('Room #302', 8)</Room>
+			<Room>('Room #303', 9)</Room>
+			<Room>('Room #304', 11)</Room>
+			<Room>('Room #305', 14)</Room>
+			<Room>('Room #306', 10)</Room>
+			<Room>('Room #307', 10)</Room>
+			<Room>('Room #308', 10)</Room>
+			<Room>('Room #309', 7)</Room>
+			<Room>('Room #310', 10)</Room>
+			<Room>('Room #311', 14)</Room>
+			<Room>('Room #312', 11)</Room>
+			<Room>('Room #313', 8)</Room>
+			<Room>('Room #314', 11)</Room>
+			<Room>('Room #315', 10)</Room>
+			<Room>('Room #316', 11)</Room>
+			<Room>('Room #317', 14)</Room>
+			<Room>('Room #318', 15)</Room>
+			<Room>('Room #319', 11)</Room>
+			<Room>('Room #320', 7)</Room>
+			<Room>('Room #321', 13)</Room>
+			<Room>('Room #322', 9)</Room>
+			<Room>('Room #323', 13)</Room>
+			<Room>('Room #324', 6)</Room>
+			<Room>('Room #325', 6)</Room>
+			<Room>('Room #326', 18)</Room>
+			<Room>('Room #327', 8)</Room>
+			<Room>('Room #328', 16)</Room>
+			<Room>('Room #329', 10)</Room>
+			<Room>('Room #330', 11)</Room>
+			<Room>('Room #331', 12)</Room>
+			<Room>('Room #332', 11)</Room>
+			<Room>('Room #333', 5)</Room>
+			<Room>('Room #334', 10)</Room>
+			<Room>('Room #335', 8)</Room>
+			<Room>('Room #336', 11)</Room>
+			<Room>('Room #337', 11)</Room>
+			<Room>('Room #338', 11)</Room>
+			<Room>('Room #339', 8)</Room>
+			<Room>('Room #340', 7)</Room>
+			<Room>('Room #341', 9)</Room>
+			<Room>('Room #342', 14)</Room>
+			<Room>('Room #343', 14)</Room>
+			<Room>('Room #344', 13)</Room>
+			<Room>('Room #345', 4)</Room>
+			<Room>('Room #346', 10)</Room>
+			<Room>('Room #347', 12)</Room>
+			<Room>('Room #348', 12)</Room>
+			<Room>('Room #349', 8)</Room>
+			<Room>('Room #350', 11)</Room>
+			<Room>('Room #351', 6)</Room>
+			<Room>('Room #352', 8)</Room>
+			<Room>('Room #353', 4)</Room>
+			<Room>('Room #354', 6)</Room>
+			<Room>('Room #355', 16)</Room>
+			<Room>('Room #356', 16)</Room>
+			<Room>('Room #357', 16)</Room>
+			<Room>('Room #358', 11)</Room>
+			<Room>('Room #359', 18)</Room>
+			<Room>('Room #360', 8)</Room>
+			<Room>('Room #361', 6)</Room>
+			<Room>('Room #362', 10)</Room>
+			<Room>('Room #363', 7)</Room>
+			<Room>('Room #364', 8)</Room>
+			<Room>('Room #365', 14)</Room>
+			<Room>('Room #366', 15)</Room>
+			<Room>('Room #367', 11)</Room>
+			<Room>('Room #368', 13)</Room>
+			<Room>('Room #369', 13)</Room>
+			<Room>('Room #370', 10)</Room>
+			<Room>('Room #371', 14)</Room>
+			<Room>('Room #372', 7)</Room>
+			<Room>('Room #373', 16)</Room>
+			<Room>('Room #374', 9)</Room>
+			<Room>('Room #375', 8)</Room>
+			<Room>('Room #376', 11)</Room>
+			<Room>('Room #377', 8)</Room>
+			<Room>('Room #378', 11)</Room>
+			<Room>('Room #379', 12)</Room>
+			<Room>('Room #380', 8)</Room>
+			<Room>('Room #381', 11)</Room>
+			<Room>('Room #382', 5)</Room>
+			<Room>('Room #383', 5)</Room>
+			<Room>('Room #384', 7)</Room>
+			<Room>('Room #385', 11)</Room>
+			<Room>('Room #386', 11)</Room>
+			<Room>('Room #387', 10)</Room>
+			<Room>('Room #388', 9)</Room>
+			<Room>('Room #389', 9)</Room>
+			<Room>('Room #390', 15)</Room>
+			<Room>('Room #391', 10)</Room>
+			<Room>('Room #392', 18)</Room>
+			<Room>('Room #393', 8)</Room>
+			<Room>('Room #394', 9)</Room>
+			<Room>('Room #395', 13)</Room>
+			<Room>('Room #396', 5)</Room>
+			<Room>('Room #397', 8)</Room>
+			<Room>('Room #398', 13)</Room>
+			<Room>('Room #399', 9)</Room>
+			<Room>('Room #400', 11)</Room>
+			<Room>('Room #401', 7)</Room>
+			<Room>('Room #402', 10)</Room>
+			<Room>('Room #403', 6)</Room>
+			<Room>('Room #404', 7)</Room>
+			<Room>('Room #405', 7)</Room>
+			<Room>('Room #406', 14)</Room>
+			<Room>('Room #407', 10)</Room>
+			<Room>('Room #408', 9)</Room>
+			<Room>('Room #409', 8)</Room>
+			<Room>('Room #410', 6)</Room>
+			<Room>('Room #411', 9)</Room>
+			<Room>('Room #412', 13)</Room>
+			<Room>('Room #413', 9)</Room>
+			<Room>('Room #414', 10)</Room>
+			<Room>('Room #415', 12)</Room>
+			<Room>('Room #416', 8)</Room>
+			<Room>('Room #417', 9)</Room>
+			<Room>('Room #418', 15)</Room>
+			<Room>('Room #419', 3)</Room>
+			<Room>('Room #420', 6)</Room>
+			<Room>('Room #421', 9)</Room>
+			<Room>('Room #422', 2)</Room>
+			<Room>('Room #423', 16)</Room>
+			<Room>('Room #424', 8)</Room>
+			<Room>('Room #425', 9)</Room>
+			<Room>('Room #426', 10)</Room>
+			<Room>('Room #427', 8)</Room>
+			<Room>('Room #428', 10)</Room>
+			<Room>('Room #429', 10)</Room>
+			<Room>('Room #430', 9)</Room>
+			<Room>('Room #431', 11)</Room>
+			<Room>('Room #432', 15)</Room>
+			<Room>('Room #433', 9)</Room>
+			<Room>('Room #434', 9)</Room>
+			<Room>('Room #435', 11)</Room>
+			<Room>('Room #436', 5)</Room>
+			<Room>('Room #437', 16)</Room>
+			<Room>('Room #438', 11)</Room>
+			<Room>('Room #439', 11)</Room>
+			<Room>('Room #440', 6)</Room>
+			<Room>('Room #441', 7)</Room>
+			<Room>('Room #442', 15)</Room>
+			<Room>('Room #443', 4)</Room>
+			<Room>('Room #444', 8)</Room>
+			<Room>('Room #445', 8)</Room>
+			<Room>('Room #446', 11)</Room>
+			<Room>('Room #447', 14)</Room>
+			<Room>('Room #448', 18)</Room>
+			<Room>('Room #449', 8)</Room>
+			<Room>('Room #450', 6)</Room>
+			<Room>('Room #451', 15)</Room>
+			<Room>('Room #452', 14)</Room>
+			<Room>('Room #453', 10)</Room>
+			<Room>('Room #454', 9)</Room>
+			<Room>('Room #455', 10)</Room>
+			<Room>('Room #456', 6)</Room>
+			<Room>('Room #457', 13)</Room>
+			<Room>('Room #458', 9)</Room>
+			<Room>('Room #459', 11)</Room>
+			<Room>('Room #460', 14)</Room>
+			<Room>('Room #461', 8)</Room>
+			<Room>('Room #462', 8)</Room>
+			<Room>('Room #463', 11)</Room>
+			<Room>('Room #464', 16)</Room>
+			<Room>('Room #465', 11)</Room>
+			<Room>('Room #466', 5)</Room>
+			<Room>('Room #467', 11)</Room>
+			<Room>('Room #468', 11)</Room>
+			<Room>('Room #469', 15)</Room>
+			<Room>('Room #470', 8)</Room>
+			<Room>('Room #471', 10)</Room>
+			<Room>('Room #472', 8)</Room>
+			<Room>('Room #473', 14)</Room>
+			<Room>('Room #474', 9)</Room>
+			<Room>('Room #475', 9)</Room>
+			<Room>('Room #476', 9)</Room>
+			<Room>('Room #477', 10)</Room>
+			<Room>('Room #478', 6)</Room>
+			<Room>('Room #479', 6)</Room>
+			<Room>('Room #480', 6)</Room>
+			<Room>('Room #481', 9)</Room>
+			<Room>('Room #482', 0)</Room>
+			<Room>('Room #483', 10)</Room>
+			<Room>('Room #484', 4)</Room>
+			<Room>('Room #485', 7)</Room>
+			<Room>('Room #486', 17)</Room>
+			<Room>('Room #487', 4)</Room>
+			<Room>('Room #488', 15)</Room>
+			<Room>('Room #489', 17)</Room>
+			<Room>('Room #490', 11)</Room>
+			<Room>('Room #491', 17)</Room>
+			<Room>('Room #492', 8)</Room>
+			<Room>('Room #493', 7)</Room>
+			<Room>('Room #494', 6)</Room>
+			<Room>('Room #495', 6)</Room>
+			<Room>('Room #496', 12)</Room>
+			<Room>('Room #497', 17)</Room>
+			<Room>('Room #498', 4)</Room>
+			<Room>('Room #499', 8)</Room>
+			<Room>('Room #500', 10)</Room>
+			<Room>('Room #501', 10)</Room>
+			<Room>('Room #502', 8)</Room>
+			<Room>('Room #503', 10)</Room>
+			<Room>('Room #504', 10)</Room>
+			<Room>('Room #505', 15)</Room>
+			<Room>('Room #506', 18)</Room>
+			<Room>('Room #507', 9)</Room>
+			<Room>('Room #508', 9)</Room>
+			<Room>('Room #509', 12)</Room>
+			<Room>('Room #510', 14)</Room>
+			<Room>('Room #511', 10)</Room>
+			<Room>('Room #512', 9)</Room>
+			<Room>('Room #513', 12)</Room>
+			<Room>('Room #514', 15)</Room>
+			<Room>('Room #515', 10)</Room>
+			<Room>('Room #516', 13)</Room>
+			<Room>('Room #517', 9)</Room>
+			<Room>('Room #518', 11)</Room>
+			<Room>('Room #519', 12)</Room>
+			<Room>('Room #520', 13)</Room>
+			<Room>('Room #521', 16)</Room>
+			<Room>('Room #522', 5)</Room>
+			<Room>('Room #523', 11)</Room>
+			<Room>('Room #524', 8)</Room>
+			<Room>('Room #525', 14)</Room>
+			<Room>('Room #526', 10)</Room>
+			<Room>('Room #527', 13)</Room>
+			<Room>('Room #528', 11)</Room>
+			<Room>('Room #529', 9)</Room>
+			<Room>('Room #530', 14)</Room>
+			<Room>('Room #531', 8)</Room>
+			<Room>('Room #532', 12)</Room>
+			<Room>('Room #533', 10)</Room>
+			<Room>('Room #534', 14)</Room>
+			<Room>('Room #535', 15)</Room>
+			<Room>('Room #536', 10)</Room>
+			<Room>('Room #537', 13)</Room>
+			<Room>('Room #538', 5)</Room>
+			<Room>('Room #539', 8)</Room>
+			<Room>('Room #540', 5)</Room>
+			<Room>('Room #541', 15)</Room>
+			<Room>('Room #542', 9)</Room>
+			<Room>('Room #543', 14)</Room>
+			<Room>('Room #544', 13)</Room>
+			<Room>('Room #545', 12)</Room>
+			<Room>('Room #546', 10)</Room>
+			<Room>('Room #547', 13)</Room>
+			<Room>('Room #548', 11)</Room>
+			<Room>('Room #549', 8)</Room>
+			<Room>('Room #550', 15)</Room>
+			<Room>('Room #551', 8)</Room>
+			<Room>('Room #552', 11)</Room>
+			<Room>('Room #553', 13)</Room>
+			<Room>('Room #554', 7)</Room>
+			<Room>('Room #555', 8)</Room>
+			<Room>('Room #556', 17)</Room>
+			<Room>('Room #557', 14)</Room>
+			<Room>('Room #558', 7)</Room>
+			<Room>('Room #559', 14)</Room>
+			<Room>('Room #560', 10)</Room>
+			<Room>('Room #561', 13)</Room>
+			<Room>('Room #562', 9)</Room>
+			<Room>('Room #563', 16)</Room>
+			<Room>('Room #564', 7)</Room>
+			<Room>('Room #565', 9)</Room>
+			<Room>('Room #566', 9)</Room>
+			<Room>('Room #567', 10)</Room>
+			<Room>('Room #568', 7)</Room>
+			<Room>('Room #569', 6)</Room>
+			<Room>('Room #570', 11)</Room>
+			<Room>('Room #571', 5)</Room>
+			<Room>('Room #572', 14)</Room>
+			<Room>('Room #573', 17)</Room>
+			<Room>('Room #574', 10)</Room>
+			<Room>('Room #575', 12)</Room>
+			<Room>('Room #576', 10)</Room>
+			<Room>('Room #577', 8)</Room>
+			<Room>('Room #578', 6)</Room>
+			<Room>('Room #579', 7)</Room>
+			<Room>('Room #580', 7)</Room>
+			<Room>('Room #581', 13)</Room>
+			<Room>('Room #582', 13)</Room>
+			<Room>('Room #583', 9)</Room>
+			<Room>('Room #584', 11)</Room>
+			<Room>('Room #585', 7)</Room>
+			<Room>('Room #586', 8)</Room>
+			<Room>('Room #587', 9)</Room>
+			<Room>('Room #588', 12)</Room>
+			<Room>('Room #589', 7)</Room>
+			<Room>('Room #590', 12)</Room>
+			<Room>('Room #591', 18)</Room>
+			<Room>('Room #592', 11)</Room>
+			<Room>('Room #593', 8)</Room>
+			<Room>('Room #594', 11)</Room>
+			<Room>('Room #595', 7)</Room>
+			<Room>('Room #596', 9)</Room>
+			<Room>('Room #597', 13)</Room>
+			<Room>('Room #598', 9)</Room>
+			<Room>('Room #599', 16)</Room>
+			<Room>('Room #600', 7)</Room>
+			<Room>('Room #601', 11)</Room>
+			<Room>('Room #602', 10)</Room>
+			<Room>('Room #603', 13)</Room>
+			<Room>('Room #604', 8)</Room>
+			<Room>('Room #605', 8)</Room>
+			<Room>('Room #606', 10)</Room>
+			<Room>('Room #607', 11)</Room>
+			<Room>('Room #608', 14)</Room>
+			<Room>('Room #609', 10)</Room>
+			<Room>('Room #610', 8)</Room>
+			<Room>('Room #611', 4)</Room>
+			<Room>('Room #612', 10)</Room>
+			<Room>('Room #613', 11)</Room>
+			<Room>('Room #614', 6)</Room>
+			<Room>('Room #615', 7)</Room>
+			<Room>('Room #616', 7)</Room>
+			<Room>('Room #617', 10)</Room>
+			<Room>('Room #618', 12)</Room>
+			<Room>('Room #619', 9)</Room>
+			<Room>('Room #620', 10)</Room>
+			<Room>('Room #621', 10)</Room>
+			<Room>('Room #622', 13)</Room>
+			<Room>('Room #623', 10)</Room>
+			<Room>('Room #624', 8)</Room>
+			<Room>('Room #625', 10)</Room>
+			<Room>('Room #626', 13)</Room>
+			<Room>('Room #627', 15)</Room>
+			<Room>('Room #628', 5)</Room>
+			<Room>('Room #629', 12)</Room>
+			<Room>('Room #630', 10)</Room>
+			<Room>('Room #631', 16)</Room>
+			<Room>('Room #632', 9)</Room>
+			<Room>('Room #633', 7)</Room>
+			<Room>('Room #634', 6)</Room>
+			<Room>('Room #635', 8)</Room>
+			<Room>('Room #636', 5)</Room>
+			<Room>('Room #637', 13)</Room>
+			<Room>('Room #638', 7)</Room>
+			<Room>('Room #639', 8)</Room>
+			<Room>('Room #640', 6)</Room>
+			<Room>('Room #641', 8)</Room>
+			<Room>('Room #642', 9)</Room>
+			<Room>('Room #643', 11)</Room>
+			<Room>('Room #644', 8)</Room>
+			<Room>('Room #645', 6)</Room>
+			<Room>('Room #646', 14)</Room>
+			<Room>('Room #647', 9)</Room>
+			<Room>('Room #648', 8)</Room>
+			<Room>('Room #649', 9)</Room>
+			<Room>('Room #650', 10)</Room>
+			<Room>('Room #651', 10)</Room>
+			<Room>('Room #652', 7)</Room>
+			<Room>('Room #653', 8)</Room>
+			<Room>('Room #654', 12)</Room>
+			<Room>('Room #655', 9)</Room>
+			<Room>('Room #656', 13)</Room>
+			<Room>('Room #657', 15)</Room>
+			<Room>('Room #658', 10)</Room>
+			<Room>('Room #659', 7)</Room>
+			<Room>('Room #660', 13)</Room>
+			<Room>('Room #661', 3)</Room>
+			<Room>('Room #662', 7)</Room>
+			<Room>('Room #663', 6)</Room>
+			<Room>('Room #664', 5)</Room>
+			<Room>('Room #665', 14)</Room>
+			<Room>('Room #666', 8)</Room>
+			<Room>('Room #667', 8)</Room>
+			<Room>('Room #668', 8)</Room>
+			<Room>('Room #669', 7)</Room>
+			<Room>('Room #670', 10)</Room>
+			<Room>('Room #671', 9)</Room>
+			<Room>('Room #672', 10)</Room>
+			<Room>('Room #673', 9)</Room>
+			<Room>('Room #674', 9)</Room>
+			<Room>('Room #675', 12)</Room>
+			<Room>('Room #676', 8)</Room>
+			<Room>('Room #677', 3)</Room>
+			<Room>('Room #678', 8)</Room>
+			<Room>('Room #679', 14)</Room>
+			<Room>('Room #680', 10)</Room>
+			<Room>('Room #681', 4)</Room>
+			<Room>('Room #682', 11)</Room>
+			<Room>('Room #683', 9)</Room>
+			<Room>('Room #684', 10)</Room>
+			<Room>('Room #685', 12)</Room>
+			<Room>('Room #686', 7)</Room>
+			<Room>('Room #687', 8)</Room>
+			<Room>('Room #688', 10)</Room>
+			<Room>('Room #689', 7)</Room>
+			<Room>('Room #690', 9)</Room>
+			<Room>('Room #691', 8)</Room>
+			<Room>('Room #692', 10)</Room>
+			<Room>('Room #693', 10)</Room>
+			<Room>('Room #694', 7)</Room>
+			<Room>('Room #695', 15)</Room>
+			<Room>('Room #696', 9)</Room>
+			<Room>('Room #697', 9)</Room>
+			<Room>('Room #698', 5)</Room>
+			<Room>('Room #699', 15)</Room>
+			<Room>('Room #700', 7)</Room>
+			<Room>('Room #701', 11)</Room>
+			<Room>('Room #702', 11)</Room>
+			<Room>('Room #703', 12)</Room>
+			<Room>('Room #704', 8)</Room>
+			<Room>('Room #705', 9)</Room>
+			<Room>('Room #706', 9)</Room>
+			<Room>('Room #707', 9)</Room>
+			<Room>('Room #708', 11)</Room>
+			<Room>('Room #709', 14)</Room>
+			<Room>('Room #710', 4)</Room>
+			<Room>('Room #711', 12)</Room>
+			<Room>('Room #712', 8)</Room>
+			<Room>('Room #713', 12)</Room>
+			<Room>('Room #714', 16)</Room>
+			<Room>('Room #715', 5)</Room>
+			<Room>('Room #716', 14)</Room>
+			<Room>('Room #717', 11)</Room>
+			<Room>('Room #718', 8)</Room>
+			<Room>('Room #719', 14)</Room>
+			<Room>('Room #720', 9)</Room>
+			<Room>('Room #721', 7)</Room>
+			<Room>('Room #722', 9)</Room>
+			<Room>('Room #723', 7)</Room>
+			<Room>('Room #724', 12)</Room>
+			<Room>('Room #725', 14)</Room>
+			<Room>('Room #726', 6)</Room>
+			<Room>('Room #727', 8)</Room>
+			<Room>('Room #728', 11)</Room>
+			<Room>('Room #729', 12)</Room>
+			<Room>('Room #730', 14)</Room>
+			<Room>('Room #731', 19)</Room>
+			<Room>('Room #732', 6)</Room>
+			<Room>('Room #733', 14)</Room>
+			<Room>('Room #734', 12)</Room>
+			<Room>('Room #735', 8)</Room>
+			<Room>('Room #736', 9)</Room>
+			<Room>('Room #737', 13)</Room>
+			<Room>('Room #738', 12)</Room>
+			<Room>('Room #739', 9)</Room>
+			<Room>('Room #740', 14)</Room>
+			<Room>('Room #741', 13)</Room>
+			<Room>('Room #742', 10)</Room>
+			<Room>('Room #743', 12)</Room>
+			<Room>('Room #744', 6)</Room>
+			<Room>('Room #745', 9)</Room>
+			<Room>('Room #746', 9)</Room>
+			<Room>('Room #747', 13)</Room>
+			<Room>('Room #748', 9)</Room>
+			<Room>('Room #749', 13)</Room>
+			<Room>('Room #750', 11)</Room>
+			<Room>('Room #751', 12)</Room>
+			<Room>('Room #752', 12)</Room>
+			<Room>('Room #753', 8)</Room>
+			<Room>('Room #754', 5)</Room>
+			<Room>('Room #755', 12)</Room>
+			<Room>('Room #756', 12)</Room>
+			<Room>('Room #757', 9)</Room>
+			<Room>('Room #758', 13)</Room>
+			<Room>('Room #759', 15)</Room>
+			<Room>('Room #760', 8)</Room>
+			<Room>('Room #761', 9)</Room>
+			<Room>('Room #762', 11)</Room>
+			<Room>('Room #763', 7)</Room>
+			<Room>('Room #764', 9)</Room>
+			<Room>('Room #765', 8)</Room>
+			<Room>('Room #766', 15)</Room>
+			<Room>('Room #767', 11)</Room>
+			<Room>('Room #768', 11)</Room>
+			<Room>('Room #769', 10)</Room>
+			<Room>('Room #770', 9)</Room>
+			<Room>('Room #771', 14)</Room>
+			<Room>('Room #772', 5)</Room>
+			<Room>('Room #773', 11)</Room>
+			<Room>('Room #774', 8)</Room>
+			<Room>('Room #775', 9)</Room>
+			<Room>('Room #776', 7)</Room>
+			<Room>('Room #777', 5)</Room>
+			<Room>('Room #778', 13)</Room>
+			<Room>('Room #779', 13)</Room>
+			<Room>('Room #780', 9)</Room>
+			<Room>('Room #781', 13)</Room>
+			<Room>('Room #782', 8)</Room>
+			<Room>('Room #783', 8)</Room>
+			<Room>('Room #784', 12)</Room>
+			<Room>('Room #785', 10)</Room>
+			<Room>('Room #786', 12)</Room>
+			<Room>('Room #787', 8)</Room>
+			<Room>('Room #788', 5)</Room>
+			<Room>('Room #789', 10)</Room>
+			<Room>('Room #790', 8)</Room>
+			<Room>('Room #791', 10)</Room>
+			<Room>('Room #792', 7)</Room>
+			<Room>('Room #793', 15)</Room>
+			<Room>('Room #794', 5)</Room>
+			<Room>('Room #795', 12)</Room>
+			<Room>('Room #796', 8)</Room>
+			<Room>('Room #797', 11)</Room>
+			<Room>('Room #798', 5)</Room>
+			<Room>('Room #799', 13)</Room>
+			<Room>('Room #800', 5)</Room>
+			<Room>('Room #801', 10)</Room>
+			<Room>('Room #802', 12)</Room>
+			<Room>('Room #803', 11)</Room>
+			<Room>('Room #804', 6)</Room>
+			<Room>('Room #805', 10)</Room>
+			<Room>('Room #806', 12)</Room>
+			<Room>('Room #807', 9)</Room>
+			<Room>('Room #808', 11)</Room>
+			<Room>('Room #809', 13)</Room>
+			<Room>('Room #810', 2)</Room>
+			<Room>('Room #811', 5)</Room>
+			<Room>('Room #812', 7)</Room>
+			<Room>('Room #813', 20)</Room>
+			<Room>('Room #814', 10)</Room>
+			<Room>('Room #815', 9)</Room>
+			<Room>('Room #816', 10)</Room>
+			<Room>('Room #817', 12)</Room>
+			<Room>('Room #818', 12)</Room>
+			<Room>('Room #819', 9)</Room>
+			<Room>('Room #820', 13)</Room>
+			<Room>('Room #821', 11)</Room>
+			<Room>('Room #822', 10)</Room>
+			<Room>('Room #823', 7)</Room>
+			<Room>('Room #824', 9)</Room>
+			<Room>('Room #825', 11)</Room>
+			<Room>('Room #826', 9)</Room>
+			<Room>('Room #827', 7)</Room>
+			<Room>('Room #828', 10)</Room>
+			<Room>('Room #829', 12)</Room>
+			<Room>('Room #830', 8)</Room>
+			<Room>('Room #831', 6)</Room>
+			<Room>('Room #832', 14)</Room>
+			<Room>('Room #833', 9)</Room>
+			<Room>('Room #834', 10)</Room>
+			<Room>('Room #835', 16)</Room>
+			<Room>('Room #836', 14)</Room>
+			<Room>('Room #837', 11)</Room>
+			<Room>('Room #838', 14)</Room>
+			<Room>('Room #839', 9)</Room>
+			<Room>('Room #840', 8)</Room>
+			<Room>('Room #841', 6)</Room>
+			<Room>('Room #842', 6)</Room>
+			<Room>('Room #843', 12)</Room>
+			<Room>('Room #844', 11)</Room>
+			<Room>('Room #845', 11)</Room>
+			<Room>('Room #846', 11)</Room>
+			<Room>('Room #847', 16)</Room>
+			<Room>('Room #848', 14)</Room>
+			<Room>('Room #849', 9)</Room>
+			<Room>('Room #850', 12)</Room>
+			<Room>('Room #851', 6)</Room>
+			<Room>('Room #852', 10)</Room>
+			<Room>('Room #853', 8)</Room>
+			<Room>('Room #854', 13)</Room>
+			<Room>('Room #855', 12)</Room>
+			<Room>('Room #856', 10)</Room>
+			<Room>('Room #857', 6)</Room>
+			<Room>('Room #858', 9)</Room>
+			<Room>('Room #859', 9)</Room>
+			<Room>('Room #860', 19)</Room>
+			<Room>('Room #861', 9)</Room>
+			<Room>('Room #862', 6)</Room>
+			<Room>('Room #863', 15)</Room>
+			<Room>('Room #864', 6)</Room>
+			<Room>('Room #865', 12)</Room>
+			<Room>('Room #866', 12)</Room>
+			<Room>('Room #867', 11)</Room>
+			<Room>('Room #868', 9)</Room>
+			<Room>('Room #869', 9)</Room>
+			<Room>('Room #870', 6)</Room>
+			<Room>('Room #871', 10)</Room>
+			<Room>('Room #872', 13)</Room>
+			<Room>('Room #873', 4)</Room>
+			<Room>('Room #874', 6)</Room>
+			<Room>('Room #875', 14)</Room>
+			<Room>('Room #876', 6)</Room>
+			<Room>('Room #877', 11)</Room>
+			<Room>('Room #878', 11)</Room>
+			<Room>('Room #879', 15)</Room>
+			<Room>('Room #880', 9)</Room>
+			<Room>('Room #881', 11)</Room>
+			<Room>('Room #882', 7)</Room>
+			<Room>('Room #883', 9)</Room>
+			<Room>('Room #884', 14)</Room>
+			<Room>('Room #885', 7)</Room>
+			<Room>('Room #886', 6)</Room>
+			<Room>('Room #887', 7)</Room>
+			<Room>('Room #888', 11)</Room>
+			<Room>('Room #889', 8)</Room>
+			<Room>('Room #890', 8)</Room>
+			<Room>('Room #891', 11)</Room>
+			<Room>('Room #892', 10)</Room>
+			<Room>('Room #893', 13)</Room>
+			<Room>('Room #894', 17)</Room>
+			<Room>('Room #895', 6)</Room>
+			<Room>('Room #896', 8)</Room>
+			<Room>('Room #897', 9)</Room>
+			<Room>('Room #898', 12)</Room>
+			<Room>('Room #899', 10)</Room>
+			<Room>('Room #900', 11)</Room>
+			<Room>('Room #901', 8)</Room>
+			<Room>('Room #902', 5)</Room>
+			<Room>('Room #903', 11)</Room>
+			<Room>('Room #904', 8)</Room>
+			<Room>('Room #905', 19)</Room>
+			<Room>('Room #906', 10)</Room>
+			<Room>('Room #907', 12)</Room>
+			<Room>('Room #908', 7)</Room>
+			<Room>('Room #909', 12)</Room>
+			<Room>('Room #910', 10)</Room>
+			<Room>('Room #911', 10)</Room>
+			<Room>('Room #912', 13)</Room>
+			<Room>('Room #913', 3)</Room>
+			<Room>('Room #914', 13)</Room>
+			<Room>('Room #915', 5)</Room>
+			<Room>('Room #916', 8)</Room>
+			<Room>('Room #917', 9)</Room>
+			<Room>('Room #918', 14)</Room>
+			<Room>('Room #919', 5)</Room>
+			<Room>('Room #920', 8)</Room>
+			<Room>('Room #921', 10)</Room>
+			<Room>('Room #922', 10)</Room>
+			<Room>('Room #923', 9)</Room>
+			<Room>('Room #924', 12)</Room>
+			<Room>('Room #925', 8)</Room>
+			<Room>('Room #926', 14)</Room>
+			<Room>('Room #927', 9)</Room>
+			<Room>('Room #928', 8)</Room>
+			<Room>('Room #929', 9)</Room>
+			<Room>('Room #930', 15)</Room>
+			<Room>('Room #931', 7)</Room>
+			<Room>('Room #932', 9)</Room>
+			<Room>('Room #933', 10)</Room>
+			<Room>('Room #934', 4)</Room>
+			<Room>('Room #935', 10)</Room>
+			<Room>('Room #936', 13)</Room>
+			<Room>('Room #937', 11)</Room>
+			<Room>('Room #938', 12)</Room>
+			<Room>('Room #939', 9)</Room>
+			<Room>('Room #940', 7)</Room>
+			<Room>('Room #941', 11)</Room>
+			<Room>('Room #942', 11)</Room>
+			<Room>('Room #943', 5)</Room>
+			<Room>('Room #944', 8)</Room>
+			<Room>('Room #945', 10)</Room>
+			<Room>('Room #946', 11)</Room>
+			<Room>('Room #947', 8)</Room>
+			<Room>('Room #948', 13)</Room>
+			<Room>('Room #949', 10)</Room>
+			<Room>('Room #950', 12)</Room>
+			<Room>('Room #951', 8)</Room>
+			<Room>('Room #952', 13)</Room>
+			<Room>('Room #953', 11)</Room>
+			<Room>('Room #954', 7)</Room>
+			<Room>('Room #955', 13)</Room>
+			<Room>('Room #956', 6)</Room>
+			<Room>('Room #957', 9)</Room>
+			<Room>('Room #958', 14)</Room>
+			<Room>('Room #959', 8)</Room>
+			<Room>('Room #960', 8)</Room>
+			<Room>('Room #961', 17)</Room>
+			<Room>('Room #962', 9)</Room>
+			<Room>('Room #963', 6)</Room>
+			<Room>('Room #964', 5)</Room>
+			<Room>('Room #965', 15)</Room>
+			<Room>('Room #966', 11)</Room>
+			<Room>('Room #967', 11)</Room>
+			<Room>('Room #968', 17)</Room>
+			<Room>('Room #969', 16)</Room>
+			<Room>('Room #970', 6)</Room>
+			<Room>('Room #971', 9)</Room>
+			<Room>('Room #972', 4)</Room>
+			<Room>('Room #973', 9)</Room>
+			<Room>('Room #974', 8)</Room>
+			<Room>('Room #975', 9)</Room>
+			<Room>('Room #976', 7)</Room>
+			<Room>('Room #977', 10)</Room>
+			<Room>('Room #978', 12)</Room>
+			<Room>('Room #979', 10)</Room>
+			<Room>('Room #980', 14)</Room>
+			<Room>('Room #981', 12)</Room>
+			<Room>('Room #982', 8)</Room>
+			<Room>('Room #983', 6)</Room>
+			<Room>('Room #984', 13)</Room>
+			<Room>('Room #985', 3)</Room>
+			<Room>('Room #986', 13)</Room>
+			<Room>('Room #987', 7)</Room>
+			<Room>('Room #988', 10)</Room>
+			<Room>('Room #989', 10)</Room>
+			<Room>('Room #990', 5)</Room>
+			<Room>('Room #991', 9)</Room>
+			<Room>('Room #992', 13)</Room>
+			<Room>('Room #993', 10)</Room>
+			<Room>('Room #994', 6)</Room>
+			<Room>('Room #995', 13)</Room>
+			<Room>('Room #996', 8)</Room>
+			<Room>('Room #997', 9)</Room>
+			<Room>('Room #998', 14)</Room>
+			<Room>('Room #999', 12)</Room>
+		</query>
+		<query>small_avg_age<Room>('Room #661', 12.0)</Room>
+			<Room>('Room #913', 20.0)</Room>
+			<Room>('Room #111', 32.0)</Room>
+			<Room>('Room #957', 34.0)</Room>
+			<Room>('Room #773', 35.0)</Room>
+		</query>
+		<query>largest_difference<Room>('Room #381', 116.0)</Room>
+			<Room>('Room #213', 115.0)</Room>
+			<Room>('Room #905', 115.0)</Room>
+			<Room>('Room #712', 115.0)</Room>
+			<Room>('Room #395', 115.0)</Room>
+		</query>
+		<query>different_sex<Room>('Room #0',)</Room>
+			<Room>('Room #1',)</Room>
+			<Room>('Room #2',)</Room>
+			<Room>('Room #3',)</Room>
+			<Room>('Room #4',)</Room>
+			<Room>('Room #5',)</Room>
+			<Room>('Room #7',)</Room>
+			<Room>('Room #8',)</Room>
+			<Room>('Room #9',)</Room>
+			<Room>('Room #10',)</Room>
+			<Room>('Room #11',)</Room>
+			<Room>('Room #12',)</Room>
+			<Room>('Room #13',)</Room>
+			<Room>('Room #14',)</Room>
+			<Room>('Room #15',)</Room>
+			<Room>('Room #16',)</Room>
+			<Room>('Room #17',)</Room>
+			<Room>('Room #18',)</Room>
+			<Room>('Room #19',)</Room>
+			<Room>('Room #20',)</Room>
+			<Room>('Room #21',)</Room>
+			<Room>('Room #22',)</Room>
+			<Room>('Room #23',)</Room>
+			<Room>('Room #24',)</Room>
+			<Room>('Room #25',)</Room>
+			<Room>('Room #26',)</Room>
+			<Room>('Room #27',)</Room>
+			<Room>('Room #28',)</Room>
+			<Room>('Room #29',)</Room>
+			<Room>('Room #30',)</Room>
+			<Room>('Room #31',)</Room>
+			<Room>('Room #32',)</Room>
+			<Room>('Room #33',)</Room>
+			<Room>('Room #34',)</Room>
+			<Room>('Room #35',)</Room>
+			<Room>('Room #36',)</Room>
+			<Room>('Room #37',)</Room>
+			<Room>('Room #38',)</Room>
+			<Room>('Room #39',)</Room>
+			<Room>('Room #40',)</Room>
+			<Room>('Room #41',)</Room>
+			<Room>('Room #42',)</Room>
+			<Room>('Room #43',)</Room>
+			<Room>('Room #44',)</Room>
+			<Room>('Room #45',)</Room>
+			<Room>('Room #46',)</Room>
+			<Room>('Room #47',)</Room>
+			<Room>('Room #48',)</Room>
+			<Room>('Room #49',)</Room>
+			<Room>('Room #50',)</Room>
+			<Room>('Room #51',)</Room>
+			<Room>('Room #52',)</Room>
+			<Room>('Room #53',)</Room>
+			<Room>('Room #54',)</Room>
+			<Room>('Room #55',)</Room>
+			<Room>('Room #56',)</Room>
+			<Room>('Room #57',)</Room>
+			<Room>('Room #58',)</Room>
+			<Room>('Room #59',)</Room>
+			<Room>('Room #60',)</Room>
+			<Room>('Room #61',)</Room>
+			<Room>('Room #62',)</Room>
+			<Room>('Room #63',)</Room>
+			<Room>('Room #64',)</Room>
+			<Room>('Room #65',)</Room>
+			<Room>('Room #66',)</Room>
+			<Room>('Room #67',)</Room>
+			<Room>('Room #68',)</Room>
+			<Room>('Room #69',)</Room>
+			<Room>('Room #70',)</Room>
+			<Room>('Room #71',)</Room>
+			<Room>('Room #72',)</Room>
+			<Room>('Room #73',)</Room>
+			<Room>('Room #74',)</Room>
+			<Room>('Room #75',)</Room>
+			<Room>('Room #76',)</Room>
+			<Room>('Room #77',)</Room>
+			<Room>('Room #78',)</Room>
+			<Room>('Room #79',)</Room>
+			<Room>('Room #80',)</Room>
+			<Room>('Room #81',)</Room>
+			<Room>('Room #82',)</Room>
+			<Room>('Room #83',)</Room>
+			<Room>('Room #84',)</Room>
+			<Room>('Room #85',)</Room>
+			<Room>('Room #86',)</Room>
+			<Room>('Room #87',)</Room>
+			<Room>('Room #88',)</Room>
+			<Room>('Room #89',)</Room>
+			<Room>('Room #90',)</Room>
+			<Room>('Room #91',)</Room>
+			<Room>('Room #92',)</Room>
+			<Room>('Room #93',)</Room>
+			<Room>('Room #94',)</Room>
+			<Room>('Room #95',)</Room>
+			<Room>('Room #96',)</Room>
+			<Room>('Room #97',)</Room>
+			<Room>('Room #98',)</Room>
+			<Room>('Room #99',)</Room>
+			<Room>('Room #100',)</Room>
+			<Room>('Room #101',)</Room>
+			<Room>('Room #102',)</Room>
+			<Room>('Room #103',)</Room>
+			<Room>('Room #104',)</Room>
+			<Room>('Room #105',)</Room>
+			<Room>('Room #106',)</Room>
+			<Room>('Room #107',)</Room>
+			<Room>('Room #108',)</Room>
+			<Room>('Room #109',)</Room>
+			<Room>('Room #110',)</Room>
+			<Room>('Room #111',)</Room>
+			<Room>('Room #112',)</Room>
+			<Room>('Room #113',)</Room>
+			<Room>('Room #114',)</Room>
+			<Room>('Room #115',)</Room>
+			<Room>('Room #116',)</Room>
+			<Room>('Room #117',)</Room>
+			<Room>('Room #118',)</Room>
+			<Room>('Room #119',)</Room>
+			<Room>('Room #120',)</Room>
+			<Room>('Room #121',)</Room>
+			<Room>('Room #122',)</Room>
+			<Room>('Room #123',)</Room>
+			<Room>('Room #124',)</Room>
+			<Room>('Room #125',)</Room>
+			<Room>('Room #126',)</Room>
+			<Room>('Room #127',)</Room>
+			<Room>('Room #128',)</Room>
+			<Room>('Room #129',)</Room>
+			<Room>('Room #130',)</Room>
+			<Room>('Room #131',)</Room>
+			<Room>('Room #132',)</Room>
+			<Room>('Room #133',)</Room>
+			<Room>('Room #134',)</Room>
+			<Room>('Room #135',)</Room>
+			<Room>('Room #136',)</Room>
+			<Room>('Room #137',)</Room>
+			<Room>('Room #138',)</Room>
+			<Room>('Room #139',)</Room>
+			<Room>('Room #140',)</Room>
+			<Room>('Room #141',)</Room>
+			<Room>('Room #142',)</Room>
+			<Room>('Room #143',)</Room>
+			<Room>('Room #144',)</Room>
+			<Room>('Room #145',)</Room>
+			<Room>('Room #146',)</Room>
+			<Room>('Room #147',)</Room>
+			<Room>('Room #148',)</Room>
+			<Room>('Room #149',)</Room>
+			<Room>('Room #150',)</Room>
+			<Room>('Room #151',)</Room>
+			<Room>('Room #152',)</Room>
+			<Room>('Room #153',)</Room>
+			<Room>('Room #154',)</Room>
+			<Room>('Room #155',)</Room>
+			<Room>('Room #156',)</Room>
+			<Room>('Room #157',)</Room>
+			<Room>('Room #158',)</Room>
+			<Room>('Room #159',)</Room>
+			<Room>('Room #160',)</Room>
+			<Room>('Room #161',)</Room>
+			<Room>('Room #162',)</Room>
+			<Room>('Room #163',)</Room>
+			<Room>('Room #164',)</Room>
+			<Room>('Room #165',)</Room>
+			<Room>('Room #166',)</Room>
+			<Room>('Room #167',)</Room>
+			<Room>('Room #168',)</Room>
+			<Room>('Room #169',)</Room>
+			<Room>('Room #170',)</Room>
+			<Room>('Room #171',)</Room>
+			<Room>('Room #172',)</Room>
+			<Room>('Room #173',)</Room>
+			<Room>('Room #174',)</Room>
+			<Room>('Room #175',)</Room>
+			<Room>('Room #176',)</Room>
+			<Room>('Room #177',)</Room>
+			<Room>('Room #178',)</Room>
+			<Room>('Room #179',)</Room>
+			<Room>('Room #180',)</Room>
+			<Room>('Room #181',)</Room>
+			<Room>('Room #182',)</Room>
+			<Room>('Room #183',)</Room>
+			<Room>('Room #184',)</Room>
+			<Room>('Room #185',)</Room>
+			<Room>('Room #186',)</Room>
+			<Room>('Room #187',)</Room>
+			<Room>('Room #188',)</Room>
+			<Room>('Room #189',)</Room>
+			<Room>('Room #190',)</Room>
+			<Room>('Room #191',)</Room>
+			<Room>('Room #192',)</Room>
+			<Room>('Room #193',)</Room>
+			<Room>('Room #194',)</Room>
+			<Room>('Room #195',)</Room>
+			<Room>('Room #196',)</Room>
+			<Room>('Room #197',)</Room>
+			<Room>('Room #198',)</Room>
+			<Room>('Room #199',)</Room>
+			<Room>('Room #200',)</Room>
+			<Room>('Room #201',)</Room>
+			<Room>('Room #202',)</Room>
+			<Room>('Room #203',)</Room>
+			<Room>('Room #204',)</Room>
+			<Room>('Room #205',)</Room>
+			<Room>('Room #206',)</Room>
+			<Room>('Room #207',)</Room>
+			<Room>('Room #208',)</Room>
+			<Room>('Room #209',)</Room>
+			<Room>('Room #210',)</Room>
+			<Room>('Room #211',)</Room>
+			<Room>('Room #212',)</Room>
+			<Room>('Room #213',)</Room>
+			<Room>('Room #214',)</Room>
+			<Room>('Room #215',)</Room>
+			<Room>('Room #216',)</Room>
+			<Room>('Room #217',)</Room>
+			<Room>('Room #218',)</Room>
+			<Room>('Room #219',)</Room>
+			<Room>('Room #220',)</Room>
+			<Room>('Room #223',)</Room>
+			<Room>('Room #224',)</Room>
+			<Room>('Room #225',)</Room>
+			<Room>('Room #226',)</Room>
+			<Room>('Room #227',)</Room>
+			<Room>('Room #228',)</Room>
+			<Room>('Room #229',)</Room>
+			<Room>('Room #230',)</Room>
+			<Room>('Room #231',)</Room>
+			<Room>('Room #232',)</Room>
+			<Room>('Room #233',)</Room>
+			<Room>('Room #234',)</Room>
+			<Room>('Room #235',)</Room>
+			<Room>('Room #236',)</Room>
+			<Room>('Room #237',)</Room>
+			<Room>('Room #238',)</Room>
+			<Room>('Room #239',)</Room>
+			<Room>('Room #240',)</Room>
+			<Room>('Room #241',)</Room>
+			<Room>('Room #242',)</Room>
+			<Room>('Room #243',)</Room>
+			<Room>('Room #244',)</Room>
+			<Room>('Room #245',)</Room>
+			<Room>('Room #246',)</Room>
+			<Room>('Room #247',)</Room>
+			<Room>('Room #248',)</Room>
+			<Room>('Room #249',)</Room>
+			<Room>('Room #250',)</Room>
+			<Room>('Room #251',)</Room>
+			<Room>('Room #252',)</Room>
+			<Room>('Room #253',)</Room>
+			<Room>('Room #254',)</Room>
+			<Room>('Room #255',)</Room>
+			<Room>('Room #256',)</Room>
+			<Room>('Room #257',)</Room>
+			<Room>('Room #258',)</Room>
+			<Room>('Room #259',)</Room>
+			<Room>('Room #260',)</Room>
+			<Room>('Room #261',)</Room>
+			<Room>('Room #262',)</Room>
+			<Room>('Room #263',)</Room>
+			<Room>('Room #264',)</Room>
+			<Room>('Room #265',)</Room>
+			<Room>('Room #266',)</Room>
+			<Room>('Room #267',)</Room>
+			<Room>('Room #268',)</Room>
+			<Room>('Room #269',)</Room>
+			<Room>('Room #270',)</Room>
+			<Room>('Room #271',)</Room>
+			<Room>('Room #272',)</Room>
+			<Room>('Room #273',)</Room>
+			<Room>('Room #274',)</Room>
+			<Room>('Room #275',)</Room>
+			<Room>('Room #276',)</Room>
+			<Room>('Room #277',)</Room>
+			<Room>('Room #278',)</Room>
+			<Room>('Room #279',)</Room>
+			<Room>('Room #280',)</Room>
+			<Room>('Room #281',)</Room>
+			<Room>('Room #282',)</Room>
+			<Room>('Room #283',)</Room>
+			<Room>('Room #284',)</Room>
+			<Room>('Room #285',)</Room>
+			<Room>('Room #286',)</Room>
+			<Room>('Room #287',)</Room>
+			<Room>('Room #288',)</Room>
+			<Room>('Room #289',)</Room>
+			<Room>('Room #290',)</Room>
+			<Room>('Room #291',)</Room>
+			<Room>('Room #292',)</Room>
+			<Room>('Room #293',)</Room>
+			<Room>('Room #294',)</Room>
+			<Room>('Room #295',)</Room>
+			<Room>('Room #296',)</Room>
+			<Room>('Room #297',)</Room>
+			<Room>('Room #298',)</Room>
+			<Room>('Room #299',)</Room>
+			<Room>('Room #300',)</Room>
+			<Room>('Room #301',)</Room>
+			<Room>('Room #302',)</Room>
+			<Room>('Room #303',)</Room>
+			<Room>('Room #304',)</Room>
+			<Room>('Room #305',)</Room>
+			<Room>('Room #306',)</Room>
+			<Room>('Room #307',)</Room>
+			<Room>('Room #308',)</Room>
+			<Room>('Room #309',)</Room>
+			<Room>('Room #310',)</Room>
+			<Room>('Room #311',)</Room>
+			<Room>('Room #312',)</Room>
+			<Room>('Room #313',)</Room>
+			<Room>('Room #314',)</Room>
+			<Room>('Room #315',)</Room>
+			<Room>('Room #316',)</Room>
+			<Room>('Room #317',)</Room>
+			<Room>('Room #318',)</Room>
+			<Room>('Room #319',)</Room>
+			<Room>('Room #320',)</Room>
+			<Room>('Room #321',)</Room>
+			<Room>('Room #322',)</Room>
+			<Room>('Room #323',)</Room>
+			<Room>('Room #324',)</Room>
+			<Room>('Room #325',)</Room>
+			<Room>('Room #326',)</Room>
+			<Room>('Room #327',)</Room>
+			<Room>('Room #328',)</Room>
+			<Room>('Room #329',)</Room>
+			<Room>('Room #330',)</Room>
+			<Room>('Room #331',)</Room>
+			<Room>('Room #332',)</Room>
+			<Room>('Room #333',)</Room>
+			<Room>('Room #334',)</Room>
+			<Room>('Room #335',)</Room>
+			<Room>('Room #336',)</Room>
+			<Room>('Room #337',)</Room>
+			<Room>('Room #338',)</Room>
+			<Room>('Room #339',)</Room>
+			<Room>('Room #340',)</Room>
+			<Room>('Room #341',)</Room>
+			<Room>('Room #342',)</Room>
+			<Room>('Room #343',)</Room>
+			<Room>('Room #344',)</Room>
+			<Room>('Room #345',)</Room>
+			<Room>('Room #346',)</Room>
+			<Room>('Room #347',)</Room>
+			<Room>('Room #348',)</Room>
+			<Room>('Room #349',)</Room>
+			<Room>('Room #350',)</Room>
+			<Room>('Room #351',)</Room>
+			<Room>('Room #352',)</Room>
+			<Room>('Room #353',)</Room>
+			<Room>('Room #354',)</Room>
+			<Room>('Room #355',)</Room>
+			<Room>('Room #356',)</Room>
+			<Room>('Room #357',)</Room>
+			<Room>('Room #358',)</Room>
+			<Room>('Room #359',)</Room>
+			<Room>('Room #360',)</Room>
+			<Room>('Room #361',)</Room>
+			<Room>('Room #362',)</Room>
+			<Room>('Room #363',)</Room>
+			<Room>('Room #364',)</Room>
+			<Room>('Room #365',)</Room>
+			<Room>('Room #366',)</Room>
+			<Room>('Room #367',)</Room>
+			<Room>('Room #368',)</Room>
+			<Room>('Room #369',)</Room>
+			<Room>('Room #370',)</Room>
+			<Room>('Room #371',)</Room>
+			<Room>('Room #372',)</Room>
+			<Room>('Room #373',)</Room>
+			<Room>('Room #374',)</Room>
+			<Room>('Room #375',)</Room>
+			<Room>('Room #376',)</Room>
+			<Room>('Room #377',)</Room>
+			<Room>('Room #378',)</Room>
+			<Room>('Room #379',)</Room>
+			<Room>('Room #380',)</Room>
+			<Room>('Room #381',)</Room>
+			<Room>('Room #382',)</Room>
+			<Room>('Room #383',)</Room>
+			<Room>('Room #384',)</Room>
+			<Room>('Room #385',)</Room>
+			<Room>('Room #386',)</Room>
+			<Room>('Room #387',)</Room>
+			<Room>('Room #388',)</Room>
+			<Room>('Room #389',)</Room>
+			<Room>('Room #390',)</Room>
+			<Room>('Room #391',)</Room>
+			<Room>('Room #392',)</Room>
+			<Room>('Room #393',)</Room>
+			<Room>('Room #394',)</Room>
+			<Room>('Room #395',)</Room>
+			<Room>('Room #397',)</Room>
+			<Room>('Room #398',)</Room>
+			<Room>('Room #399',)</Room>
+			<Room>('Room #400',)</Room>
+			<Room>('Room #401',)</Room>
+			<Room>('Room #402',)</Room>
+			<Room>('Room #403',)</Room>
+			<Room>('Room #404',)</Room>
+			<Room>('Room #405',)</Room>
+			<Room>('Room #406',)</Room>
+			<Room>('Room #407',)</Room>
+			<Room>('Room #408',)</Room>
+			<Room>('Room #409',)</Room>
+			<Room>('Room #410',)</Room>
+			<Room>('Room #411',)</Room>
+			<Room>('Room #412',)</Room>
+			<Room>('Room #413',)</Room>
+			<Room>('Room #414',)</Room>
+			<Room>('Room #415',)</Room>
+			<Room>('Room #416',)</Room>
+			<Room>('Room #417',)</Room>
+			<Room>('Room #418',)</Room>
+			<Room>('Room #420',)</Room>
+			<Room>('Room #421',)</Room>
+			<Room>('Room #422',)</Room>
+			<Room>('Room #423',)</Room>
+			<Room>('Room #424',)</Room>
+			<Room>('Room #425',)</Room>
+			<Room>('Room #426',)</Room>
+			<Room>('Room #427',)</Room>
+			<Room>('Room #428',)</Room>
+			<Room>('Room #429',)</Room>
+			<Room>('Room #430',)</Room>
+			<Room>('Room #431',)</Room>
+			<Room>('Room #432',)</Room>
+			<Room>('Room #433',)</Room>
+			<Room>('Room #434',)</Room>
+			<Room>('Room #435',)</Room>
+			<Room>('Room #436',)</Room>
+			<Room>('Room #437',)</Room>
+			<Room>('Room #438',)</Room>
+			<Room>('Room #439',)</Room>
+			<Room>('Room #440',)</Room>
+			<Room>('Room #441',)</Room>
+			<Room>('Room #442',)</Room>
+			<Room>('Room #443',)</Room>
+			<Room>('Room #444',)</Room>
+			<Room>('Room #445',)</Room>
+			<Room>('Room #446',)</Room>
+			<Room>('Room #447',)</Room>
+			<Room>('Room #448',)</Room>
+			<Room>('Room #449',)</Room>
+			<Room>('Room #450',)</Room>
+			<Room>('Room #451',)</Room>
+			<Room>('Room #452',)</Room>
+			<Room>('Room #453',)</Room>
+			<Room>('Room #454',)</Room>
+			<Room>('Room #455',)</Room>
+			<Room>('Room #456',)</Room>
+			<Room>('Room #457',)</Room>
+			<Room>('Room #458',)</Room>
+			<Room>('Room #459',)</Room>
+			<Room>('Room #460',)</Room>
+			<Room>('Room #461',)</Room>
+			<Room>('Room #462',)</Room>
+			<Room>('Room #463',)</Room>
+			<Room>('Room #464',)</Room>
+			<Room>('Room #465',)</Room>
+			<Room>('Room #466',)</Room>
+			<Room>('Room #467',)</Room>
+			<Room>('Room #468',)</Room>
+			<Room>('Room #469',)</Room>
+			<Room>('Room #470',)</Room>
+			<Room>('Room #471',)</Room>
+			<Room>('Room #472',)</Room>
+			<Room>('Room #473',)</Room>
+			<Room>('Room #474',)</Room>
+			<Room>('Room #475',)</Room>
+			<Room>('Room #476',)</Room>
+			<Room>('Room #477',)</Room>
+			<Room>('Room #478',)</Room>
+			<Room>('Room #479',)</Room>
+			<Room>('Room #480',)</Room>
+			<Room>('Room #481',)</Room>
+			<Room>('Room #483',)</Room>
+			<Room>('Room #485',)</Room>
+			<Room>('Room #486',)</Room>
+			<Room>('Room #487',)</Room>
+			<Room>('Room #488',)</Room>
+			<Room>('Room #489',)</Room>
+			<Room>('Room #490',)</Room>
+			<Room>('Room #491',)</Room>
+			<Room>('Room #492',)</Room>
+			<Room>('Room #493',)</Room>
+			<Room>('Room #494',)</Room>
+			<Room>('Room #495',)</Room>
+			<Room>('Room #496',)</Room>
+			<Room>('Room #497',)</Room>
+			<Room>('Room #498',)</Room>
+			<Room>('Room #499',)</Room>
+			<Room>('Room #500',)</Room>
+			<Room>('Room #501',)</Room>
+			<Room>('Room #502',)</Room>
+			<Room>('Room #503',)</Room>
+			<Room>('Room #504',)</Room>
+			<Room>('Room #505',)</Room>
+			<Room>('Room #506',)</Room>
+			<Room>('Room #507',)</Room>
+			<Room>('Room #508',)</Room>
+			<Room>('Room #509',)</Room>
+			<Room>('Room #510',)</Room>
+			<Room>('Room #511',)</Room>
+			<Room>('Room #512',)</Room>
+			<Room>('Room #513',)</Room>
+			<Room>('Room #514',)</Room>
+			<Room>('Room #515',)</Room>
+			<Room>('Room #516',)</Room>
+			<Room>('Room #517',)</Room>
+			<Room>('Room #518',)</Room>
+			<Room>('Room #519',)</Room>
+			<Room>('Room #520',)</Room>
+			<Room>('Room #521',)</Room>
+			<Room>('Room #522',)</Room>
+			<Room>('Room #523',)</Room>
+			<Room>('Room #524',)</Room>
+			<Room>('Room #525',)</Room>
+			<Room>('Room #526',)</Room>
+			<Room>('Room #527',)</Room>
+			<Room>('Room #528',)</Room>
+			<Room>('Room #529',)</Room>
+			<Room>('Room #530',)</Room>
+			<Room>('Room #531',)</Room>
+			<Room>('Room #532',)</Room>
+			<Room>('Room #533',)</Room>
+			<Room>('Room #534',)</Room>
+			<Room>('Room #535',)</Room>
+			<Room>('Room #536',)</Room>
+			<Room>('Room #537',)</Room>
+			<Room>('Room #538',)</Room>
+			<Room>('Room #539',)</Room>
+			<Room>('Room #540',)</Room>
+			<Room>('Room #541',)</Room>
+			<Room>('Room #542',)</Room>
+			<Room>('Room #543',)</Room>
+			<Room>('Room #544',)</Room>
+			<Room>('Room #545',)</Room>
+			<Room>('Room #546',)</Room>
+			<Room>('Room #547',)</Room>
+			<Room>('Room #548',)</Room>
+			<Room>('Room #549',)</Room>
+			<Room>('Room #550',)</Room>
+			<Room>('Room #551',)</Room>
+			<Room>('Room #552',)</Room>
+			<Room>('Room #553',)</Room>
+			<Room>('Room #554',)</Room>
+			<Room>('Room #555',)</Room>
+			<Room>('Room #556',)</Room>
+			<Room>('Room #557',)</Room>
+			<Room>('Room #558',)</Room>
+			<Room>('Room #559',)</Room>
+			<Room>('Room #560',)</Room>
+			<Room>('Room #561',)</Room>
+			<Room>('Room #562',)</Room>
+			<Room>('Room #563',)</Room>
+			<Room>('Room #564',)</Room>
+			<Room>('Room #565',)</Room>
+			<Room>('Room #566',)</Room>
+			<Room>('Room #567',)</Room>
+			<Room>('Room #568',)</Room>
+			<Room>('Room #569',)</Room>
+			<Room>('Room #570',)</Room>
+			<Room>('Room #571',)</Room>
+			<Room>('Room #572',)</Room>
+			<Room>('Room #573',)</Room>
+			<Room>('Room #574',)</Room>
+			<Room>('Room #575',)</Room>
+			<Room>('Room #576',)</Room>
+			<Room>('Room #577',)</Room>
+			<Room>('Room #578',)</Room>
+			<Room>('Room #580',)</Room>
+			<Room>('Room #581',)</Room>
+			<Room>('Room #582',)</Room>
+			<Room>('Room #583',)</Room>
+			<Room>('Room #584',)</Room>
+			<Room>('Room #585',)</Room>
+			<Room>('Room #586',)</Room>
+			<Room>('Room #587',)</Room>
+			<Room>('Room #588',)</Room>
+			<Room>('Room #589',)</Room>
+			<Room>('Room #590',)</Room>
+			<Room>('Room #591',)</Room>
+			<Room>('Room #592',)</Room>
+			<Room>('Room #593',)</Room>
+			<Room>('Room #594',)</Room>
+			<Room>('Room #595',)</Room>
+			<Room>('Room #596',)</Room>
+			<Room>('Room #597',)</Room>
+			<Room>('Room #598',)</Room>
+			<Room>('Room #599',)</Room>
+			<Room>('Room #600',)</Room>
+			<Room>('Room #601',)</Room>
+			<Room>('Room #602',)</Room>
+			<Room>('Room #603',)</Room>
+			<Room>('Room #604',)</Room>
+			<Room>('Room #605',)</Room>
+			<Room>('Room #606',)</Room>
+			<Room>('Room #607',)</Room>
+			<Room>('Room #608',)</Room>
+			<Room>('Room #609',)</Room>
+			<Room>('Room #610',)</Room>
+			<Room>('Room #611',)</Room>
+			<Room>('Room #612',)</Room>
+			<Room>('Room #613',)</Room>
+			<Room>('Room #614',)</Room>
+			<Room>('Room #615',)</Room>
+			<Room>('Room #616',)</Room>
+			<Room>('Room #617',)</Room>
+			<Room>('Room #618',)</Room>
+			<Room>('Room #619',)</Room>
+			<Room>('Room #620',)</Room>
+			<Room>('Room #621',)</Room>
+			<Room>('Room #622',)</Room>
+			<Room>('Room #624',)</Room>
+			<Room>('Room #625',)</Room>
+			<Room>('Room #626',)</Room>
+			<Room>('Room #627',)</Room>
+			<Room>('Room #628',)</Room>
+			<Room>('Room #629',)</Room>
+			<Room>('Room #630',)</Room>
+			<Room>('Room #631',)</Room>
+			<Room>('Room #632',)</Room>
+			<Room>('Room #633',)</Room>
+			<Room>('Room #634',)</Room>
+			<Room>('Room #635',)</Room>
+			<Room>('Room #636',)</Room>
+			<Room>('Room #637',)</Room>
+			<Room>('Room #638',)</Room>
+			<Room>('Room #639',)</Room>
+			<Room>('Room #640',)</Room>
+			<Room>('Room #641',)</Room>
+			<Room>('Room #642',)</Room>
+			<Room>('Room #643',)</Room>
+			<Room>('Room #644',)</Room>
+			<Room>('Room #645',)</Room>
+			<Room>('Room #646',)</Room>
+			<Room>('Room #647',)</Room>
+			<Room>('Room #648',)</Room>
+			<Room>('Room #649',)</Room>
+			<Room>('Room #650',)</Room>
+			<Room>('Room #651',)</Room>
+			<Room>('Room #652',)</Room>
+			<Room>('Room #653',)</Room>
+			<Room>('Room #654',)</Room>
+			<Room>('Room #655',)</Room>
+			<Room>('Room #656',)</Room>
+			<Room>('Room #657',)</Room>
+			<Room>('Room #658',)</Room>
+			<Room>('Room #659',)</Room>
+			<Room>('Room #660',)</Room>
+			<Room>('Room #661',)</Room>
+			<Room>('Room #662',)</Room>
+			<Room>('Room #663',)</Room>
+			<Room>('Room #664',)</Room>
+			<Room>('Room #665',)</Room>
+			<Room>('Room #666',)</Room>
+			<Room>('Room #667',)</Room>
+			<Room>('Room #668',)</Room>
+			<Room>('Room #669',)</Room>
+			<Room>('Room #670',)</Room>
+			<Room>('Room #671',)</Room>
+			<Room>('Room #672',)</Room>
+			<Room>('Room #673',)</Room>
+			<Room>('Room #674',)</Room>
+			<Room>('Room #675',)</Room>
+			<Room>('Room #676',)</Room>
+			<Room>('Room #677',)</Room>
+			<Room>('Room #678',)</Room>
+			<Room>('Room #679',)</Room>
+			<Room>('Room #680',)</Room>
+			<Room>('Room #681',)</Room>
+			<Room>('Room #682',)</Room>
+			<Room>('Room #683',)</Room>
+			<Room>('Room #684',)</Room>
+			<Room>('Room #685',)</Room>
+			<Room>('Room #686',)</Room>
+			<Room>('Room #687',)</Room>
+			<Room>('Room #688',)</Room>
+			<Room>('Room #689',)</Room>
+			<Room>('Room #690',)</Room>
+			<Room>('Room #691',)</Room>
+			<Room>('Room #692',)</Room>
+			<Room>('Room #693',)</Room>
+			<Room>('Room #694',)</Room>
+			<Room>('Room #695',)</Room>
+			<Room>('Room #696',)</Room>
+			<Room>('Room #697',)</Room>
+			<Room>('Room #698',)</Room>
+			<Room>('Room #699',)</Room>
+			<Room>('Room #700',)</Room>
+			<Room>('Room #701',)</Room>
+			<Room>('Room #702',)</Room>
+			<Room>('Room #703',)</Room>
+			<Room>('Room #704',)</Room>
+			<Room>('Room #705',)</Room>
+			<Room>('Room #706',)</Room>
+			<Room>('Room #707',)</Room>
+			<Room>('Room #708',)</Room>
+			<Room>('Room #709',)</Room>
+			<Room>('Room #710',)</Room>
+			<Room>('Room #711',)</Room>
+			<Room>('Room #712',)</Room>
+			<Room>('Room #713',)</Room>
+			<Room>('Room #714',)</Room>
+			<Room>('Room #715',)</Room>
+			<Room>('Room #716',)</Room>
+			<Room>('Room #717',)</Room>
+			<Room>('Room #718',)</Room>
+			<Room>('Room #719',)</Room>
+			<Room>('Room #720',)</Room>
+			<Room>('Room #721',)</Room>
+			<Room>('Room #722',)</Room>
+			<Room>('Room #723',)</Room>
+			<Room>('Room #724',)</Room>
+			<Room>('Room #725',)</Room>
+			<Room>('Room #726',)</Room>
+			<Room>('Room #727',)</Room>
+			<Room>('Room #728',)</Room>
+			<Room>('Room #729',)</Room>
+			<Room>('Room #730',)</Room>
+			<Room>('Room #731',)</Room>
+			<Room>('Room #732',)</Room>
+			<Room>('Room #733',)</Room>
+			<Room>('Room #734',)</Room>
+			<Room>('Room #735',)</Room>
+			<Room>('Room #737',)</Room>
+			<Room>('Room #738',)</Room>
+			<Room>('Room #739',)</Room>
+			<Room>('Room #740',)</Room>
+			<Room>('Room #741',)</Room>
+			<Room>('Room #742',)</Room>
+			<Room>('Room #743',)</Room>
+			<Room>('Room #744',)</Room>
+			<Room>('Room #745',)</Room>
+			<Room>('Room #746',)</Room>
+			<Room>('Room #747',)</Room>
+			<Room>('Room #748',)</Room>
+			<Room>('Room #749',)</Room>
+			<Room>('Room #750',)</Room>
+			<Room>('Room #751',)</Room>
+			<Room>('Room #752',)</Room>
+			<Room>('Room #753',)</Room>
+			<Room>('Room #754',)</Room>
+			<Room>('Room #755',)</Room>
+			<Room>('Room #756',)</Room>
+			<Room>('Room #757',)</Room>
+			<Room>('Room #758',)</Room>
+			<Room>('Room #759',)</Room>
+			<Room>('Room #760',)</Room>
+			<Room>('Room #761',)</Room>
+			<Room>('Room #762',)</Room>
+			<Room>('Room #763',)</Room>
+			<Room>('Room #764',)</Room>
+			<Room>('Room #765',)</Room>
+			<Room>('Room #766',)</Room>
+			<Room>('Room #767',)</Room>
+			<Room>('Room #768',)</Room>
+			<Room>('Room #769',)</Room>
+			<Room>('Room #770',)</Room>
+			<Room>('Room #771',)</Room>
+			<Room>('Room #772',)</Room>
+			<Room>('Room #773',)</Room>
+			<Room>('Room #774',)</Room>
+			<Room>('Room #775',)</Room>
+			<Room>('Room #776',)</Room>
+			<Room>('Room #777',)</Room>
+			<Room>('Room #778',)</Room>
+			<Room>('Room #779',)</Room>
+			<Room>('Room #780',)</Room>
+			<Room>('Room #781',)</Room>
+			<Room>('Room #782',)</Room>
+			<Room>('Room #783',)</Room>
+			<Room>('Room #784',)</Room>
+			<Room>('Room #785',)</Room>
+			<Room>('Room #786',)</Room>
+			<Room>('Room #787',)</Room>
+			<Room>('Room #788',)</Room>
+			<Room>('Room #789',)</Room>
+			<Room>('Room #790',)</Room>
+			<Room>('Room #791',)</Room>
+			<Room>('Room #792',)</Room>
+			<Room>('Room #793',)</Room>
+			<Room>('Room #794',)</Room>
+			<Room>('Room #795',)</Room>
+			<Room>('Room #796',)</Room>
+			<Room>('Room #797',)</Room>
+			<Room>('Room #798',)</Room>
+			<Room>('Room #799',)</Room>
+			<Room>('Room #800',)</Room>
+			<Room>('Room #801',)</Room>
+			<Room>('Room #802',)</Room>
+			<Room>('Room #803',)</Room>
+			<Room>('Room #804',)</Room>
+			<Room>('Room #805',)</Room>
+			<Room>('Room #806',)</Room>
+			<Room>('Room #807',)</Room>
+			<Room>('Room #808',)</Room>
+			<Room>('Room #809',)</Room>
+			<Room>('Room #810',)</Room>
+			<Room>('Room #811',)</Room>
+			<Room>('Room #812',)</Room>
+			<Room>('Room #813',)</Room>
+			<Room>('Room #814',)</Room>
+			<Room>('Room #815',)</Room>
+			<Room>('Room #816',)</Room>
+			<Room>('Room #817',)</Room>
+			<Room>('Room #818',)</Room>
+			<Room>('Room #819',)</Room>
+			<Room>('Room #820',)</Room>
+			<Room>('Room #821',)</Room>
+			<Room>('Room #822',)</Room>
+			<Room>('Room #823',)</Room>
+			<Room>('Room #824',)</Room>
+			<Room>('Room #825',)</Room>
+			<Room>('Room #826',)</Room>
+			<Room>('Room #827',)</Room>
+			<Room>('Room #828',)</Room>
+			<Room>('Room #829',)</Room>
+			<Room>('Room #830',)</Room>
+			<Room>('Room #831',)</Room>
+			<Room>('Room #832',)</Room>
+			<Room>('Room #833',)</Room>
+			<Room>('Room #834',)</Room>
+			<Room>('Room #835',)</Room>
+			<Room>('Room #836',)</Room>
+			<Room>('Room #837',)</Room>
+			<Room>('Room #838',)</Room>
+			<Room>('Room #839',)</Room>
+			<Room>('Room #840',)</Room>
+			<Room>('Room #841',)</Room>
+			<Room>('Room #842',)</Room>
+			<Room>('Room #843',)</Room>
+			<Room>('Room #844',)</Room>
+			<Room>('Room #845',)</Room>
+			<Room>('Room #846',)</Room>
+			<Room>('Room #847',)</Room>
+			<Room>('Room #848',)</Room>
+			<Room>('Room #849',)</Room>
+			<Room>('Room #850',)</Room>
+			<Room>('Room #851',)</Room>
+			<Room>('Room #852',)</Room>
+			<Room>('Room #853',)</Room>
+			<Room>('Room #854',)</Room>
+			<Room>('Room #855',)</Room>
+			<Room>('Room #856',)</Room>
+			<Room>('Room #857',)</Room>
+			<Room>('Room #858',)</Room>
+			<Room>('Room #859',)</Room>
+			<Room>('Room #860',)</Room>
+			<Room>('Room #861',)</Room>
+			<Room>('Room #862',)</Room>
+			<Room>('Room #863',)</Room>
+			<Room>('Room #864',)</Room>
+			<Room>('Room #865',)</Room>
+			<Room>('Room #866',)</Room>
+			<Room>('Room #867',)</Room>
+			<Room>('Room #868',)</Room>
+			<Room>('Room #869',)</Room>
+			<Room>('Room #870',)</Room>
+			<Room>('Room #871',)</Room>
+			<Room>('Room #872',)</Room>
+			<Room>('Room #873',)</Room>
+			<Room>('Room #874',)</Room>
+			<Room>('Room #875',)</Room>
+			<Room>('Room #876',)</Room>
+			<Room>('Room #877',)</Room>
+			<Room>('Room #878',)</Room>
+			<Room>('Room #879',)</Room>
+			<Room>('Room #880',)</Room>
+			<Room>('Room #881',)</Room>
+			<Room>('Room #882',)</Room>
+			<Room>('Room #883',)</Room>
+			<Room>('Room #884',)</Room>
+			<Room>('Room #885',)</Room>
+			<Room>('Room #886',)</Room>
+			<Room>('Room #887',)</Room>
+			<Room>('Room #888',)</Room>
+			<Room>('Room #889',)</Room>
+			<Room>('Room #890',)</Room>
+			<Room>('Room #891',)</Room>
+			<Room>('Room #892',)</Room>
+			<Room>('Room #893',)</Room>
+			<Room>('Room #894',)</Room>
+			<Room>('Room #895',)</Room>
+			<Room>('Room #896',)</Room>
+			<Room>('Room #897',)</Room>
+			<Room>('Room #898',)</Room>
+			<Room>('Room #899',)</Room>
+			<Room>('Room #900',)</Room>
+			<Room>('Room #901',)</Room>
+			<Room>('Room #902',)</Room>
+			<Room>('Room #903',)</Room>
+			<Room>('Room #904',)</Room>
+			<Room>('Room #905',)</Room>
+			<Room>('Room #906',)</Room>
+			<Room>('Room #907',)</Room>
+			<Room>('Room #908',)</Room>
+			<Room>('Room #909',)</Room>
+			<Room>('Room #910',)</Room>
+			<Room>('Room #911',)</Room>
+			<Room>('Room #912',)</Room>
+			<Room>('Room #913',)</Room>
+			<Room>('Room #914',)</Room>
+			<Room>('Room #915',)</Room>
+			<Room>('Room #916',)</Room>
+			<Room>('Room #917',)</Room>
+			<Room>('Room #918',)</Room>
+			<Room>('Room #919',)</Room>
+			<Room>('Room #920',)</Room>
+			<Room>('Room #921',)</Room>
+			<Room>('Room #922',)</Room>
+			<Room>('Room #923',)</Room>
+			<Room>('Room #924',)</Room>
+			<Room>('Room #925',)</Room>
+			<Room>('Room #926',)</Room>
+			<Room>('Room #927',)</Room>
+			<Room>('Room #928',)</Room>
+			<Room>('Room #929',)</Room>
+			<Room>('Room #930',)</Room>
+			<Room>('Room #931',)</Room>
+			<Room>('Room #932',)</Room>
+			<Room>('Room #933',)</Room>
+			<Room>('Room #934',)</Room>
+			<Room>('Room #935',)</Room>
+			<Room>('Room #936',)</Room>
+			<Room>('Room #937',)</Room>
+			<Room>('Room #938',)</Room>
+			<Room>('Room #939',)</Room>
+			<Room>('Room #940',)</Room>
+			<Room>('Room #941',)</Room>
+			<Room>('Room #942',)</Room>
+			<Room>('Room #943',)</Room>
+			<Room>('Room #944',)</Room>
+			<Room>('Room #945',)</Room>
+			<Room>('Room #946',)</Room>
+			<Room>('Room #947',)</Room>
+			<Room>('Room #948',)</Room>
+			<Room>('Room #949',)</Room>
+			<Room>('Room #950',)</Room>
+			<Room>('Room #951',)</Room>
+			<Room>('Room #952',)</Room>
+			<Room>('Room #953',)</Room>
+			<Room>('Room #954',)</Room>
+			<Room>('Room #955',)</Room>
+			<Room>('Room #956',)</Room>
+			<Room>('Room #957',)</Room>
+			<Room>('Room #958',)</Room>
+			<Room>('Room #959',)</Room>
+			<Room>('Room #960',)</Room>
+			<Room>('Room #961',)</Room>
+			<Room>('Room #962',)</Room>
+			<Room>('Room #963',)</Room>
+			<Room>('Room #964',)</Room>
+			<Room>('Room #965',)</Room>
+			<Room>('Room #966',)</Room>
+			<Room>('Room #967',)</Room>
+			<Room>('Room #968',)</Room>
+			<Room>('Room #969',)</Room>
+			<Room>('Room #970',)</Room>
+			<Room>('Room #971',)</Room>
+			<Room>('Room #972',)</Room>
+			<Room>('Room #973',)</Room>
+			<Room>('Room #974',)</Room>
+			<Room>('Room #975',)</Room>
+			<Room>('Room #976',)</Room>
+			<Room>('Room #977',)</Room>
+			<Room>('Room #978',)</Room>
+			<Room>('Room #979',)</Room>
+			<Room>('Room #980',)</Room>
+			<Room>('Room #981',)</Room>
+			<Room>('Room #982',)</Room>
+			<Room>('Room #983',)</Room>
+			<Room>('Room #984',)</Room>
+			<Room>('Room #985',)</Room>
+			<Room>('Room #986',)</Room>
+			<Room>('Room #987',)</Room>
+			<Room>('Room #988',)</Room>
+			<Room>('Room #989',)</Room>
+			<Room>('Room #990',)</Room>
+			<Room>('Room #991',)</Room>
+			<Room>('Room #992',)</Room>
+			<Room>('Room #993',)</Room>
+			<Room>('Room #994',)</Room>
+			<Room>('Room #995',)</Room>
+			<Room>('Room #996',)</Room>
+			<Room>('Room #997',)</Room>
+			<Room>('Room #998',)</Room>
+			<Room>('Room #999',)</Room>
+		</query>
+	</queries>

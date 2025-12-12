@@ -1,0 +1,29 @@
+
+
+services:
+  # 1. Сервис Базы Данных (PostgreSQL)
+  db:
+    build:
+      context: . # Ищем Dockerfile в текущей папке
+      dockerfile: Dockerfile
+
+    container_name: university_db
+
+    # Переменные среды для настройки БД (обязательно для первого запуска)
+    environment:
+      POSTGRES_DB: university   # Имя БД
+      POSTGRES_USER: postgres       # Имя пользователя
+      POSTGRES_PASSWORD: postgres # Пароль
+
+    # Сохранение данных на хосте с помощью именованного тома
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+    # Пробрасываем порт для доступа из pgAdmin или хост-системы
+    ports:
+      - "5433:5432"
+
+    restart: always
+volumes:
+  postgres_data: # <--- Определение тома
+    driver: local # Опционально, но рекомендуется для ясности
