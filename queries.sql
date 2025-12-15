@@ -1,0 +1,175 @@
+--Output the number of movies in each category, sorted descending.
+SELECT
+	T1.NAME,
+	COUNT(T2.FILM_ID) AS COUNT_FILM
+FROM
+	CATEGORY T1
+	JOIN FILM_CATEGORY T2 ON T1.CATEGORY_ID = T2.CATEGORY_ID
+GROUP BY
+	T1.NAME
+ORDER BY
+	COUNT_FILM DESC;
+
+--Output the 10 actors whose movies rented the most,
+--sorted in descending order.
+SELECT
+	T1.ACTOR_ID,
+	T1.FIRST_NAME,
+	T1.LAST_NAME,
+	SUM(T3.RENTAL_DURATION) AS SUM_RENT
+FROM
+	ACTOR T1
+	JOIN FILM_ACTOR T2 ON T1.ACTOR_ID = T2.ACTOR_ID
+	JOIN FILM T3 ON T2.FILM_ID = T3.FILM_ID
+GROUP BY
+	T1.ACTOR_ID
+ORDER BY
+	SUM_RENT DESC
+LIMIT
+	(10);
+
+--Output the category of movies on which the most money was spent.
+SELECT
+	T1.NAME,
+	SUM(T3.RENTAL_DURATION * T3.RENTAL_RATE) AS RENTAL_COST
+FROM
+	CATEGORY T1
+	JOIN FILM_CATEGORY T2 ON T1.CATEGORY_ID = T2.CATEGORY_ID
+	JOIN FILM T3 ON T2.FILM_ID = T3.FILM_ID
+GROUP BY
+	T1.NAME
+ORDER BY
+	RENTAL_COST DESC
+LIMIT
+	(1);
+
+--Print the names of movies that are not in the inventory.
+--Write a query without using the IN operator.
+SELECT DISTINCT
+	T1.TITLE,
+	T1.FILM_ID
+FROM
+	FILM T1
+	LEFT JOIN INVENTORY T2 ON T1.FILM_ID = T2.FILM_ID
+WHERE
+	T2.FILM_ID IS NULL
+ORDER BY
+	FILM_ID;
+
+--Output the top 3 actors who have appeared the most in movies in the “Children” category.
+--If several actors have the same number of movies, output all of them.
+WITH
+	ACTOR_FILM_COUNT AS (
+		SELECT
+			T1.FIRST_NAME,
+			T1.LAST_NAME,
+			'Children' AS CATEGORY,
+			COUNT(T3.FILM_ID) AS FILM_COUNT,
+			DENSE_RANK() OVER (
+				ORDER BY
+					COUNT(T3.FILM_ID) DESC
+			) AS RANK_ACTOR
+		FROM
+			ACTOR T1
+			JOIN FILM_ACTOR T2 ON T1.ACTOR_ID = T2.ACTOR_ID
+			JOIN FILM T3 ON T2.FILM_ID = T3.FILM_ID
+			JOIN FILM_CATEGORY T4 ON T3.FILM_ID = T4.FILM_ID
+			JOIN CATEGORY T5 ON T4.CATEGORY_ID = T5.CATEGORY_ID
+		WHERE
+			T5.NAME = 'Children'
+		GROUP BY
+			T1.ACTOR_ID,
+			T1.FIRST_NAME,
+			T1.LAST_NAME
+	)
+SELECT
+	FIRST_NAME,
+	LAST_NAME,
+	CATEGORY,
+	FILM_COUNT AS COUNT
+FROM
+	ACTOR_FILM_COUNT
+WHERE
+	RANK_ACTOR <= 3
+ORDER BY
+	FILM_COUNT DESC;
+
+--Output cities with the number of active and inactive customers (active - customer.active = 1).
+--Sort by the number of inactive customers in descending order.
+SELECT
+	T1.CITY,
+	SUM(
+		CASE
+			WHEN T3.ACTIVE = 1 THEN 1
+			ELSE 0
+		END
+	) AS ACTIVE_USERS_COUNT,
+	SUM(
+		CASE
+			WHEN T3.ACTIVE = 0 THEN 1
+			ELSE 0
+		END
+	) AS INACTIVE_USERS_COUNT
+FROM
+	CITY T1
+	JOIN ADDRESS T2 ON T1.CITY_ID = T2.CITY_ID
+	JOIN CUSTOMER T3 ON T2.ADDRESS_ID = T3.ADDRESS_ID
+GROUP BY
+	T1.CITY
+ORDER BY
+	T1.CITY;
+
+--Output the category of movies that have the highest number of total rental hours in the city
+--(customer.address_id in this city) and that start with the letter “a”.
+--Do the same for cities that have a “-” in them. Write everything in one query.
+WITH
+	GROUPED_CTE AS (
+		SELECT
+			T1.CITY,
+			T8.NAME,
+			SUM(T6.RENTAL_DURATION) AS TOTAL_RENT,
+			CASE
+				WHEN T1.CITY ILIKE 'a%' THEN 'start_a'
+				WHEN T1.CITY LIKE '%-%' THEN 'include -'
+				ELSE NULL
+			END AS GROUP_CITY
+		FROM
+			CITY T1
+			JOIN ADDRESS T2 ON T1.CITY_ID = T2.CITY_ID
+			JOIN CUSTOMER T3 ON T2.ADDRESS_ID = T3.ADDRESS_ID
+			JOIN RENTAL T4 ON T3.CUSTOMER_ID = T4.CUSTOMER_ID
+			JOIN INVENTORY T5 ON T4.INVENTORY_ID = T5.INVENTORY_ID
+			JOIN FILM T6 ON T5.FILM_ID = T6.FILM_ID
+			JOIN FILM_CATEGORY T7 ON T6.FILM_ID = T7.FILM_ID
+			JOIN CATEGORY T8 ON T7.CATEGORY_ID = T8.CATEGORY_ID
+		GROUP BY
+			T1.CITY,
+			T8.NAME
+		ORDER BY
+			TOTAL_RENT DESC
+	),
+	RANKED_CTE AS (
+		SELECT
+			GROUP_CITY,
+			NAME,
+			TOTAL_RENT,
+			CITY,
+			RANK() OVER (
+				PARTITION BY
+					GROUP_CITY
+				ORDER BY
+					TOTAL_RENT DESC
+			) AS RANK_TOTAL_RENT
+		FROM
+			GROUPED_CTE
+		WHERE
+			GROUP_CITY IS NOT NULL
+	)
+SELECT
+	CITY,
+	NAME AS CATEGORY,
+	TOTAL_RENT
+FROM
+	RANKED_CTE
+WHERE
+	RANK_TOTAL_RENT = 1
