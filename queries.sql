@@ -96,28 +96,35 @@ ORDER BY
 
 --Output cities with the number of active and inactive customers (active - customer.active = 1).
 --Sort by the number of inactive customers in descending order.
-SELECT
-	T1.CITY,
-	SUM(
-		CASE
-			WHEN T3.ACTIVE = 1 THEN 1
-			ELSE 0
-		END
-	) AS ACTIVE_USERS_COUNT,
-	SUM(
-		CASE
-			WHEN T3.ACTIVE = 0 THEN 1
-			ELSE 0
-		END
-	) AS INACTIVE_USERS_COUNT
-FROM
-	CITY T1
-	JOIN ADDRESS T2 ON T1.CITY_ID = T2.CITY_ID
-	JOIN CUSTOMER T3 ON T2.ADDRESS_ID = T3.ADDRESS_ID
-GROUP BY
-	T1.CITY
-ORDER BY
-	T1.CITY;
+-- SELECT
+-- 	T1.CITY,
+-- 	SUM(
+-- 		CASE
+-- 			WHEN T3.ACTIVE = 1 THEN 1
+-- 			ELSE 0
+-- 		END
+-- 	) AS ACTIVE_USERS_COUNT,
+-- 	SUM(
+-- 		CASE
+-- 			WHEN T3.ACTIVE = 0 THEN 1
+-- 			ELSE 0
+-- 		END
+-- 	) AS INACTIVE_USERS_COUNT
+-- FROM
+-- 	CITY T1
+-- 	JOIN ADDRESS T2 ON T1.CITY_ID = T2.CITY_ID
+-- 	JOIN CUSTOMER T3 ON T2.ADDRESS_ID = T3.ADDRESS_ID
+-- GROUP BY
+-- 	T1.CITY
+-- ORDER BY
+-- 	T1.CITY;
+select city, 
+SUM(case when notes = 'active' then 1 else 0 end) as active_users_count,
+SUM(case when notes = '' then 1 else 0 end) as inactive_users_count
+from customer_list
+group by city
+order by city;
+
 
 --Output the category of movies that have the highest number of total rental hours in the city
 --(customer.address_id in this city) and that start with the letter “a”.
