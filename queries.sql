@@ -12,15 +12,18 @@ ORDER BY
 
 --Output the 10 actors whose movies rented the most,
 --sorted in descending order.
+EXPLAIN ANALYZE
 SELECT
 	T1.ACTOR_ID,
 	T1.FIRST_NAME,
 	T1.LAST_NAME,
-	COUNT(T3.RENTAL_DURATION) AS count_rent
+	COUNT(t5.rental_id) AS count_rent
 FROM
 	ACTOR T1
 	JOIN FILM_ACTOR T2 ON T1.ACTOR_ID = T2.ACTOR_ID
 	JOIN FILM T3 ON T2.FILM_ID = T3.FILM_ID
+	JOIN INVENTORY t4 on t3.film_id = t4.film_id
+	JOIN rental t5 on t4.inventory_id = t5.inventory_id
 GROUP BY
     T1.FIRST_NAME,
 	T1.LAST_NAME,
@@ -31,6 +34,7 @@ LIMIT
 	(10);
 
 --Output the category of movies on which the most money was spent.
+
 SELECT
 	T1.NAME,
 	ROUND(SUM(EXTRACT(DAY FROM (t5.return_date - t5.rental_date)) * t6.amount),0) AS TOTAL_RENTAL_COST
@@ -101,6 +105,7 @@ ORDER BY
 
 --Output cities with the number of active and inactive customers (active - customer.active = 1).
 --Sort by the number of inactive customers in descending order.
+
 SELECT
 	T1.CITY,
 	SUM(
@@ -128,6 +133,7 @@ ORDER BY
 --Output the category of movies that have the highest number of total rental hours in the city
 --(customer.address_id in this city) and that start with the letter “a”.
 --Do the same for cities that have a “-” in them. Write everything in one query.
+
 WITH
 	GROUPED_CTE AS (
 		SELECT
