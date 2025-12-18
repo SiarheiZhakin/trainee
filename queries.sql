@@ -139,7 +139,7 @@ WITH
 		SELECT
 			T1.CITY,
 			T8.NAME,
-			SUM(EXTRACT(DAY FROM (T4.return_date - T4.rental_date))) AS TOTAL_RENT_TIME,
+			SUM(EXTRACT(HOUR FROM (T4.return_date - T4.rental_date))) AS TOTAL_RENT_TIME,
 			CASE
 				WHEN T1.CITY ILIKE 'a%' THEN 'start_a'
 				WHEN T1.CITY LIKE '%-%' THEN 'include -'
