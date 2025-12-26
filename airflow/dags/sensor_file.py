@@ -8,6 +8,7 @@ import os
 import pandas as pd
 
 load_dotenv()
+# from .env
 path_to_folder = os.getenv('PATH_FOLDER')
 file = os.getenv('FILE')
 final_file = os.getenv('FINAL_FILE')
@@ -15,13 +16,13 @@ final_file = Dataset(final_file)
 file_path = f'{path_to_folder}{file}'
 
 
-# file_path = "/opt/airflow/data/tiktok_google_play_reviews.csv"
 @dag(dag_id="waiting_files",
      schedule="@daily",
      start_date=None, catchup=False,
      description="This dag waiting file in folder --DATA--",
      tags=["sensor_folder"])
 def waiting_files():
+    """Every 5 sec this sensor scan folder"""
     scan_folder = FileSensor(
         task_id="scan_folder",
         fs_conn_id="fs_default",
@@ -47,13 +48,13 @@ def waiting_files():
             task_id='log_empty_file',
             bash_command='echo "The file is empty."'
         )
-   
 
     @task_group(group_id='transform_data')
     def transform_task_group(input_file):
 
         @task
         def replace_nulls(path):
+            """Transform data , replace - if null"""
             df = pd.read_csv(path, engine='pyarrow')
             replace = df.fillna('-', inplace=True)
             df.to_csv(f"{path_to_folder}replace_nulls.csv", index=False)
@@ -62,6 +63,7 @@ def waiting_files():
             
         @task
         def sort_data(path):
+            """Sorting on at(datetime col)"""
             df = pd.read_csv(path, engine='pyarrow')
             sort = df.sort_values('at')
             df.to_csv(f"{path_to_folder}sort_data.csv", index=False)
@@ -70,12 +72,13 @@ def waiting_files():
 
         @task(outlets=[final_file])
         def only_text(path):
+            """Delete all not text symbols and create asset to dag_transit"""
             df = pd.read_csv(path, engine='pyarrow')
             regex_pattern = r'[^a-zA-Zа-яА-ЯёЁ\s\.,!;:-]'
             df['content'] = df['content'].replace(regex_pattern, '', regex=True)
             df.to_csv(f"{path_to_folder}final_result.csv", index=False)
 
-
+        #our dependencies in taskgroup
         path_to_sort = replace_nulls(input_file)
         before_final_save = sort_data(path_to_sort)
         only_text(before_final_save)
@@ -84,6 +87,7 @@ def waiting_files():
     start = scan_folder
     branch = scan_file(file_path)
     transform_file = process_file_task()
+    #main dependencies in DAG
     start >> branch
     branch >> Label("File not empty") >> transform_file
     branch >> Label("Empty file") >> log

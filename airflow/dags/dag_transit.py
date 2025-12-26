@@ -8,6 +8,7 @@ import os
 
 
 load_dotenv()
+# from .env
 final_file_path = os.getenv('FINAL_FILE')
 final_file = Dataset(final_file_path)
 
@@ -19,7 +20,7 @@ final_file = Dataset(final_file_path)
     tags=["sensor_folder"]
 )
 def second_dag():
-    
+    """Transit our data to mongoDB"""
     @task
     def data_to_mongo():
         df = pd.read_csv(final_file_path)
