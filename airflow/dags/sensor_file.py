@@ -13,7 +13,7 @@ path_to_folder = os.getenv('PATH_FOLDER')
 file = os.getenv('FILE')
 final_file = os.getenv('FINAL_FILE')
 final_file = Dataset(final_file)
-file_path = f'{path_to_folder}{file}'
+file_path = os.path.join(path_to_folder, file)
 
 
 @dag(dag_id="waiting_files",
@@ -33,8 +33,8 @@ def waiting_files():
     def scan_file(file_path):
         """Check if the file is empty or not"""
         with open(file_path, 'r', encoding='utf-8') as f:
-            first_line = f.readline()
-        if not first_line:
+            header = f.readline() #хедеры
+        if not header.readline(): #вторая строка
             return 'log_empty_file'
         else:
             return 'process_file_task'
@@ -56,8 +56,8 @@ def waiting_files():
         def replace_nulls(path):
             """Transform data , replace - if null"""
             df = pd.read_csv(path, engine='pyarrow')
-            replace = df.fillna('-', inplace=True)
-            df.to_csv(f"{path_to_folder}replace_nulls.csv", index=False)
+            df = df.fillna('-', inplace=True)
+            df.to_csv(os.path.join(path_to_folder, "replace_nulls.csv", index=False))
             path = "data/replace_nulls.csv"
             return path
             
@@ -65,8 +65,8 @@ def waiting_files():
         def sort_data(path):
             """Sorting on at(datetime col)"""
             df = pd.read_csv(path, engine='pyarrow')
-            sort = df.sort_values('at')
-            df.to_csv(f"{path_to_folder}sort_data.csv", index=False)
+            df = df.sort_values('at')
+            df.to_csv(os.path.join(path_to_folder, "sort_data.csv", index=False))
             path = "data/sort_data.csv"
             return path
 
@@ -76,7 +76,7 @@ def waiting_files():
             df = pd.read_csv(path, engine='pyarrow')
             regex_pattern = r'[^a-zA-Zа-яА-ЯёЁ\s\.,!;:-]'
             df['content'] = df['content'].replace(regex_pattern, '', regex=True)
-            df.to_csv(f"{path_to_folder}final_result.csv", index=False)
+            df.to_csv(os.path.join(path_to_folder, "final_result.csv", index=False))
 
         #our dependencies in taskgroup
         path_to_sort = replace_nulls(input_file)
